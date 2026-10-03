@@ -1,0 +1,1 @@
+import{t as e}from"./openpbrMaterialLoadingAdapter-C46vk_45.js";export{e as OpenPBRMaterialLoadingAdapter};

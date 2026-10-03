@@ -1,0 +1,51 @@
+{
+  "hit": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.8,
+    "source": "Sparks"
+  },
+  "impact": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.6,
+    "source": "Shockwave"
+  },
+  "dust": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.9,
+    "source": "Colosseum Dust Burst"
+  },
+  "splash": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.8,
+    "source": "Colosseum Water Splash"
+  },
+  "fire": {
+    "cols": 4,
+    "rows": 4,
+    "frames": 16,
+    "dur": 3,
+    "source": "flame"
+  },
+  "zap": {
+    "cols": 3,
+    "rows": 3,
+    "frames": 9,
+    "dur": 0.40000015258789057,
+    "source": "Capacitor"
+  },
+  "poison": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.6909091186523437,
+    "source": "Poison"
+  }
+}

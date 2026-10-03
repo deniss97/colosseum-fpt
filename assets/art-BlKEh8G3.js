@@ -1,0 +1,1 @@
+var e={DIR:`art/`,MANIFEST:`art/manifest.json`,EXTENSIONS:[`png`,`jpg`,`jpeg`,`webp`],TEXTURE_PREFIX:`art:`,FADE_MS:250,SIZES:{illustration:[780,340],portrait:[256,256],unit:[256,256],icon:[128,128],slide:[1280,720]},choices:{dialogues:{},events:{}}};export{e as t};
