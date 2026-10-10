@@ -1,0 +1,1045 @@
+{
+ "music": {
+  "theme": "music/theme.mp3",
+  "hub": "music/hub.mp3",
+  "world": "music/world.mp3",
+  "battle": "music/battle.mp3",
+  "battle2": "music/battle2.mp3",
+  "champion": "music/champion.mp3",
+  "graveyard": "music/graveyard.mp3"
+ },
+ "ambience": {
+  "arena_crowd": "ambience/arena_crowd.mp3"
+ },
+ "voice": {
+  "tour.barracks.intro": "voice/mentor_tour.barracks.intro.mp3",
+  "tour.barracks.mannequins": "voice/mentor_tour.barracks.mannequins.mp3",
+  "tour.barracks.table": "voice/mentor_tour.barracks.table.mp3",
+  "tour.barracks.party": "voice/mentor_tour.barracks.party.mp3",
+  "tour.barracks.informant": "voice/mentor_tour.barracks.informant.mp3",
+  "tour.barracks.door": "voice/mentor_tour.barracks.door.mp3",
+  "tutorial.basics.welcome": "voice/mentor_tutorial.basics.welcome.mp3",
+  "tutorial.basics.camera": "voice/mentor_tutorial.basics.camera.mp3",
+  "tutorial.basics.camera_views": "voice/mentor_tutorial.basics.camera_views.mp3",
+  "tutorial.basics.hero": "voice/mentor_tutorial.basics.hero.mp3",
+  "tutorial.basics.turn_order": "voice/mentor_tutorial.basics.turn_order.mp3",
+  "tutorial.basics.stats": "voice/mentor_tutorial.basics.stats.mp3",
+  "tutorial.basics.card": "voice/mentor_tutorial.basics.card.mp3",
+  "tutorial.basics.move": "voice/mentor_tutorial.basics.move.mp3",
+  "tutorial.basics.attack": "voice/mentor_tutorial.basics.attack.mp3",
+  "tutorial.basics.actions": "voice/mentor_tutorial.basics.actions.mp3",
+  "tutorial.basics.end_turn": "voice/mentor_tutorial.basics.end_turn.mp3",
+  "tutorial.basics.enemy_turn": "voice/mentor_tutorial.basics.enemy_turn.mp3",
+  "tutorial.basics.finish": "voice/mentor_tutorial.basics.finish.mp3",
+  "tutorial.basics.iron": "voice/mentor_tutorial.basics.iron.mp3",
+  "tutorial.basics.to_rope": "voice/mentor_tutorial.basics.to_rope.mp3",
+  "tutorial.basics.wait": "voice/mentor_tutorial.basics.wait.mp3",
+  "tutorial.basics.rope": "voice/mentor_tutorial.basics.rope.mp3",
+  "tutorial.basics.crushed": "voice/mentor_tutorial.basics.crushed.mp3",
+  "tutorial.chains.welcome": "voice/mentor_tutorial.chains.welcome.mp3",
+  "tutorial.chains.boulder": "voice/mentor_tutorial.chains.boulder.mp3",
+  "tutorial.chains.roll": "voice/mentor_tutorial.chains.roll.mp3",
+  "tutorial.chains.brazier": "voice/mentor_tutorial.chains.brazier.mp3",
+  "tutorial.chains.knock": "voice/mentor_tutorial.chains.knock.mp3",
+  "tutorial.chains.burn": "voice/mentor_tutorial.chains.burn.mp3",
+  "tutorial.chains.statuses": "voice/mentor_tutorial.chains.statuses.mp3",
+  "tutorial.chains.done": "voice/mentor_tutorial.chains.done.mp3",
+  "tutorial.trial.point": "voice/mentor_tutorial.trial.point.mp3",
+  "tutorial.trial.peek": "voice/mentor_tutorial.trial.peek.mp3",
+  "tutorial.trial.gear": "voice/mentor_tutorial.trial.gear.mp3",
+  "tutorial.trial.stats": "voice/mentor_tutorial.trial.stats.mp3",
+  "tutorial.trial.bio_tab": "voice/mentor_tutorial.trial.bio_tab.mp3",
+  "tutorial.trial.bio": "voice/mentor_tutorial.trial.bio.mp3",
+  "tutorial.trial.close": "voice/mentor_tutorial.trial.close.mp3",
+  "tutorial.trial.options": "voice/mentor_tutorial.trial.options.mp3",
+  "tutorial.trial.choose": "voice/mentor_tutorial.trial.choose.mp3",
+  "tutorial.trial.levelup": "voice/mentor_tutorial.trial.levelup.mp3",
+  "tutorial.trial.spend": "voice/mentor_tutorial.trial.spend.mp3",
+  "tutorial.trial.skills": "voice/mentor_tutorial.trial.skills.mp3",
+  "tutorial.trial.kinds": "voice/mentor_tutorial.trial.kinds.mp3",
+  "tutorial.trial.camps": "voice/mentor_tutorial.trial.camps.mp3",
+  "tutorial.road.what": "voice/mentor_tutorial.road.what.mp3",
+  "tutorial.road.choose": "voice/mentor_tutorial.road.choose.mp3",
+  "tour.world.intro": "voice/mentor_tour.world.intro.mp3",
+  "tour.world.city": "voice/mentor_tour.world.city.mp3",
+  "tour.world.tavern": "voice/mentor_tour.world.tavern.mp3",
+  "tour.world.barracks": "voice/mentor_tour.world.barracks.mp3",
+  "tour.world.armory": "voice/mentor_tour.world.armory.mp3",
+  "tour.world.arena": "voice/mentor_tour.world.arena.mp3",
+  "tour.world.expeditions": "voice/mentor_tour.world.expeditions.mp3",
+  "tour.world.marker": "voice/mentor_tour.world.marker.mp3",
+  "tour.world.legend": "voice/mentor_tour.world.legend.mp3",
+  "tour.world.hero": "voice/mentor_tour.world.hero.mp3",
+  "tour.world.go": "voice/mentor_tour.world.go.mp3",
+  "bark.champion_1_start_1": "voice/bark_champion_1_start_1.mp3",
+  "bark.champion_1_start_2": "voice/bark_champion_1_start_2.mp3",
+  "bark.champion_1_start_senator": "voice/bark_champion_1_start_senator.mp3",
+  "bark.champion_1_start_challenged": "voice/bark_champion_1_start_challenged.mp3",
+  "bark.champion_1_start_stolen_crowd": "voice/bark_champion_1_start_stolen_crowd.mp3",
+  "bark.champion_1_start_scar": "voice/bark_champion_1_start_scar.mp3",
+  "bark.champion_1_start_diary": "voice/bark_champion_1_start_diary.mp3",
+  "bark.champion_1_start_shamed": "voice/bark_champion_1_start_shamed.mp3",
+  "bark.champion_1_start_undying": "voice/bark_champion_1_start_undying.mp3",
+  "bark.champion_1_hurt_1": "voice/bark_champion_1_hurt_1.mp3",
+  "bark.champion_1_low": "voice/bark_champion_1_low.mp3",
+  "bark.champion_1_low_fifth": "voice/bark_champion_1_low_fifth.mp3",
+  "bark.champion_1_kill": "voice/bark_champion_1_kill.mp3",
+  "bark.champion_1_hero_low": "voice/bark_champion_1_hero_low.mp3",
+  "bark.champion_1_hero_low_showman": "voice/bark_champion_1_hero_low_showman.mp3",
+  "bark.champion_1_fans": "voice/bark_champion_1_fans.mp3",
+  "bark.champion_1_fans_missing": "voice/bark_champion_1_fans_missing.mp3",
+  "bark.champion_1_death": "voice/bark_champion_1_death.mp3",
+  "bark.champion_1_death_fifth": "voice/bark_champion_1_death_fifth.mp3",
+  "bark.gl_start_1": "voice/bark_gl_start_1.mp3",
+  "bark.gl_start_arrival": "voice/bark_gl_start_arrival.mp3",
+  "bark.gl_start_senator": "voice/bark_gl_start_senator.mp3",
+  "bark.gl_start_rebel": "voice/bark_gl_start_rebel.mp3",
+  "bark.gl_start_runaway": "voice/bark_gl_start_runaway.mp3",
+  "bark.gl_start_oath": "voice/bark_gl_start_oath.mp3",
+  "bark.gl_start_proud": "voice/bark_gl_start_proud.mp3",
+  "bark.gl_start_curious": "voice/bark_gl_start_curious.mp3",
+  "bark.gl_start_cunning": "voice/bark_gl_start_cunning.mp3",
+  "bark.gl_start_showman": "voice/bark_gl_start_showman.mp3",
+  "bark.gl_start_brute": "voice/bark_gl_start_brute.mp3",
+  "bark.gl_start_duelist": "voice/bark_gl_start_duelist.mp3",
+  "bark.gl_start_tactician": "voice/bark_gl_start_tactician.mp3",
+  "bark.gl_start_mage": "voice/bark_gl_start_mage.mp3",
+  "bark.gl_start_archer": "voice/bark_gl_start_archer.mp3",
+  "bark.gl_start_king": "voice/bark_gl_start_king.mp3",
+  "bark.gl_start_fans": "voice/bark_gl_start_fans.mp3",
+  "bark.gl_start_threat": "voice/bark_gl_start_threat.mp3",
+  "bark.gl_start_rude": "voice/bark_gl_start_rude.mp3",
+  "bark.gl_start_fifth": "voice/bark_gl_start_fifth.mp3",
+  "bark.gl_start_legate": "voice/bark_gl_start_legate.mp3",
+  "bark.gl_start_undying": "voice/bark_gl_start_undying.mp3",
+  "bark.gl_start_pathfinder": "voice/bark_gl_start_pathfinder.mp3",
+  "bark.gl_hurt_1": "voice/bark_gl_hurt_1.mp3",
+  "bark.gl_hurt_2": "voice/bark_gl_hurt_2.mp3",
+  "bark.gl_hurt_brute": "voice/bark_gl_hurt_brute.mp3",
+  "bark.gl_hurt_late": "voice/bark_gl_hurt_late.mp3",
+  "bark.gl_low_1": "voice/bark_gl_low_1.mp3",
+  "bark.gl_low_2": "voice/bark_gl_low_2.mp3",
+  "bark.gl_low_merciful": "voice/bark_gl_low_merciful.mp3",
+  "bark.gl_kill_1": "voice/bark_gl_kill_1.mp3",
+  "bark.gl_down_1": "voice/bark_gl_down_1.mp3",
+  "bark.gl_down_2": "voice/bark_gl_down_2.mp3",
+  "bark.gl_hero_low_king": "voice/bark_gl_hero_low_king.mp3",
+  "bark.gl_hero_low_proud": "voice/bark_gl_hero_low_proud.mp3",
+  "bark.gl_hero_low_showman": "voice/bark_gl_hero_low_showman.mp3",
+  "bark.gl_death_1": "voice/bark_gl_death_1.mp3",
+  "bark.gl_death_2": "voice/bark_gl_death_2.mp3",
+  "bark.gl_death_axion": "voice/bark_gl_death_axion.mp3",
+  "bark.gl_death_awakened": "voice/bark_gl_death_awakened.mp3",
+  "bark.gl_death_truth": "voice/bark_gl_death_truth.mp3",
+  "bark.sp_veteran_start_1": "voice/bark_sp_veteran_start_1.mp3",
+  "bark.sp_veteran_start_2": "voice/bark_sp_veteran_start_2.mp3",
+  "bark.sp_veteran_start_3": "voice/bark_sp_veteran_start_3.mp3",
+  "bark.sp_veteran_start_4": "voice/bark_sp_veteran_start_4.mp3",
+  "bark.sp_veteran_start_5": "voice/bark_sp_veteran_start_5.mp3",
+  "bark.sp_veteran_start_6": "voice/bark_sp_veteran_start_6.mp3",
+  "bark.sp_veteran_idle_1": "voice/bark_sp_veteran_idle_1.mp3",
+  "bark.sp_veteran_idle_2": "voice/bark_sp_veteran_idle_2.mp3",
+  "bark.sp_veteran_idle_3": "voice/bark_sp_veteran_idle_3.mp3",
+  "bark.sp_veteran_idle_4": "voice/bark_sp_veteran_idle_4.mp3",
+  "bark.sp_veteran_idle_5": "voice/bark_sp_veteran_idle_5.mp3",
+  "bark.sp_veteran_idle_6": "voice/bark_sp_veteran_idle_6.mp3",
+  "bark.sp_veteran_hit_1": "voice/bark_sp_veteran_hit_1.mp3",
+  "bark.sp_veteran_hit_2": "voice/bark_sp_veteran_hit_2.mp3",
+  "bark.sp_veteran_hit_3": "voice/bark_sp_veteran_hit_3.mp3",
+  "bark.sp_veteran_hurt_1": "voice/bark_sp_veteran_hurt_1.mp3",
+  "bark.sp_veteran_hurt_2": "voice/bark_sp_veteran_hurt_2.mp3",
+  "bark.sp_veteran_kill_1": "voice/bark_sp_veteran_kill_1.mp3",
+  "bark.sp_veteran_kill_2": "voice/bark_sp_veteran_kill_2.mp3",
+  "bark.sp_veteran_kill_3": "voice/bark_sp_veteran_kill_3.mp3",
+  "bark.sp_veteran_low_1": "voice/bark_sp_veteran_low_1.mp3",
+  "bark.sp_veteran_low_2": "voice/bark_sp_veteran_low_2.mp3",
+  "bark.sp_veteran_death_1": "voice/bark_sp_veteran_death_1.mp3",
+  "bark.sp_veteran_down_1": "voice/bark_sp_veteran_down_1.mp3",
+  "bark.sp_veteran_blast_1": "voice/bark_sp_veteran_blast_1.mp3",
+  "bark.sp_veteran_last_1": "voice/bark_sp_veteran_last_1.mp3",
+  "bark.sp_matron_start_2": "voice/bark_sp_matron_start_2.mp3",
+  "bark.sp_matron_start_3": "voice/bark_sp_matron_start_3.mp3",
+  "bark.sp_matron_start_4": "voice/bark_sp_matron_start_4.mp3",
+  "bark.sp_matron_start_5": "voice/bark_sp_matron_start_5.mp3",
+  "bark.sp_matron_start_6": "voice/bark_sp_matron_start_6.mp3",
+  "bark.sp_matron_idle_1": "voice/bark_sp_matron_idle_1.mp3",
+  "bark.sp_matron_idle_2": "voice/bark_sp_matron_idle_2.mp3",
+  "bark.sp_matron_idle_3": "voice/bark_sp_matron_idle_3.mp3",
+  "bark.sp_matron_idle_4": "voice/bark_sp_matron_idle_4.mp3",
+  "bark.sp_matron_hit_1": "voice/bark_sp_matron_hit_1.mp3",
+  "bark.sp_matron_hit_2": "voice/bark_sp_matron_hit_2.mp3",
+  "bark.sp_matron_hurt_1": "voice/bark_sp_matron_hurt_1.mp3",
+  "bark.sp_matron_hurt_2": "voice/bark_sp_matron_hurt_2.mp3",
+  "bark.sp_matron_kill_1": "voice/bark_sp_matron_kill_1.mp3",
+  "bark.sp_matron_kill_2": "voice/bark_sp_matron_kill_2.mp3",
+  "bark.sp_matron_kill_3": "voice/bark_sp_matron_kill_3.mp3",
+  "bark.sp_matron_low_1": "voice/bark_sp_matron_low_1.mp3",
+  "bark.sp_matron_low_2": "voice/bark_sp_matron_low_2.mp3",
+  "bark.sp_matron_death_1": "voice/bark_sp_matron_death_1.mp3",
+  "bark.sp_matron_down_1": "voice/bark_sp_matron_down_1.mp3",
+  "bark.sp_matron_blast_1": "voice/bark_sp_matron_blast_1.mp3",
+  "bark.sp_matron_last_1": "voice/bark_sp_matron_last_1.mp3",
+  "bark.bull_start": "sfx/vox.bull.call.1.mp3",
+  "bark.bone_giant_start": "sfx/vox.zombie.call.2.mp3",
+  "bark.bone_giant_death": "sfx/vox.zombie.death.1.mp3",
+  "bark.fe_magic_rat_start": "sfx/vox.rat.call.2.mp3",
+  "bark.fe_magic_rat_hurt": "sfx/vox.rat.hurt.2.mp3",
+  "bark.fe_magic_rat_death": "sfx/vox.rat.death.2.mp3",
+  "bark.fe_red_cyclops_start": "sfx/vox.cyclops.call.1.mp3",
+  "bark.fe_red_cyclops_hurt": "sfx/vox.cyclops.hurt.1.mp3",
+  "bark.fe_red_cyclops_low": "sfx/vox.cyclops.hurt.1.mp3",
+  "bark.fe_red_cyclops_death": "sfx/vox.cyclops.death.2.mp3",
+  "bark.fe_red_cyclops_start_paladin": "sfx/vox.cyclops.call.1.mp3",
+  "bark.fe_bull_start": "sfx/vox.bull.call.1.mp3",
+  "bark.fe_bull_hurt": "sfx/vox.bull.hurt.1.mp3",
+  "bark.fe_bull_hero_low": "sfx/vox.bull.call.2.mp3",
+  "bark.fe_bull_death": "sfx/vox.bull.death.2.mp3",
+  "bark.fd_bonegiant_hurt": "sfx/vox.zombie.hurt.1.mp3",
+  "bark.fd_bonegiant_kill": "sfx/vox.zombie.attack.2.mp3",
+  "bark.fd_bonegiant_herolow": "sfx/vox.zombie.call.2.mp3",
+  "bark.fd_bonegiant_brute": "sfx/vox.zombie.call.1.mp3",
+  "bark.fd_cryptrat_start": "sfx/vox.rat.call.1.mp3",
+  "bark.fd_cryptrat_hurt": "sfx/vox.rat.hurt.1.mp3",
+  "bark.fd_cryptrat_death": "sfx/vox.rat.death.1.mp3",
+  "bark.fd_ghoul_start": "sfx/vox.ghoul.call.1.mp3",
+  "bark.fd_ghoul_hurt": "sfx/vox.ghoul.hurt.1.mp3",
+  "bark.fd_ghoul_herolow": "sfx/vox.ghoul.call.1.mp3",
+  "bark.fd_ghoul_mage": "sfx/vox.ghoul.call.1.mp3",
+  "bark.fd_graveknight_start": "sfx/vox.zombie.call.1.mp3",
+  "bark.fd_graveknight_hurt": "sfx/vox.zombie.hurt.1.mp3",
+  "bark.fd_graveknight_death": "sfx/vox.zombie.death.1.mp3",
+  "bark.fd_graveknight_oath": "sfx/vox.zombie.call.1.mp3",
+  "bark.fd_zombie_start": "sfx/vox.zombie.call.2.mp3",
+  "bark.fd_zombie_death": "sfx/vox.zombie.death.1.mp3",
+  "bark.fd_zombie_master": "sfx/vox.zombie.call.1.mp3",
+  "bark.fd_bonearcher_start": "sfx/vox.skeleton.call.1.mp3",
+  "bark.fd_bonearcher_hurt": "sfx/vox.skeleton.hurt.1.mp3",
+  "bark.fd_bonearcher_death": "sfx/vox.skeleton.death.1.mp3",
+  "bark.fd_skeleton_start": "sfx/vox.skeleton.call.2.mp3",
+  "bark.fd_skeleton_hurt": "sfx/vox.skeleton.hurt.2.mp3",
+  "bark.fd_skeleton_death": "sfx/vox.skeleton.death.2.mp3",
+  "bark.fd_wolf_start": "sfx/vox.wolf.call.1.mp3",
+  "bark.fd_wolf_hurt": "sfx/vox.wolf.hurt.1.mp3",
+  "bark.fd_wolf_kill": "sfx/vox.wolf.attack.2.mp3",
+  "bark.fd_boar_start": "sfx/vox.boar.call.2.mp3",
+  "bark.fd_boar_hurt": "sfx/vox.boar.hurt.2.mp3",
+  "bark.fd_boar_death": "sfx/vox.boar.death.2.mp3",
+  "bark.fd_bear_start": "sfx/vox.bear.call.1.mp3",
+  "bark.fd_bear_hurt": "sfx/vox.bear.hurt.1.mp3",
+  "bark.fd_bear_death": "sfx/vox.bear.death.1.mp3",
+  "bark.fd_deer_start": "sfx/vox.deer.call.2.mp3",
+  "bark.fd_deer_hurt": "sfx/vox.deer.hurt.2.mp3",
+  "bark.fd_deer_down": "sfx/vox.deer.call.1.mp3",
+  "bark.fd_lurker_start": "sfx/vox.lurker.call.1.mp3",
+  "bark.fd_lurker_hurt": "sfx/vox.lurker.hurt.1.mp3",
+  "bark.fd_lurker_kill": "sfx/vox.lurker.attack.2.mp3",
+  "bark.fl_goat_start": "sfx/vox.goat.call.2.mp3",
+  "bark.fl_goat_hurt": "sfx/vox.goat.hurt.2.mp3",
+  "bark.fl_goat_death": "sfx/vox.goat.death.2.mp3",
+  "bark.fl_eagle_start": "sfx/vox.bird.call.2.mp3",
+  "bark.fl_eagle_hurt": "sfx/vox.bird.hurt.2.mp3",
+  "bark.fl_eagle_death": "sfx/vox.bird.death.2.mp3",
+  "bark.fl_cyclops_start": "sfx/vox.cyclops.call.1.mp3",
+  "bark.fl_cyclops_hurt": "sfx/vox.cyclops.hurt.1.mp3",
+  "bark.fl_cyclops_death": "sfx/vox.cyclops.death.1.mp3",
+  "bark.fl_cyclops_paladin": "sfx/vox.cyclops.call.2.mp3",
+  "bark.fl_cyclops_giant": "sfx/vox.cyclops.call.1.mp3",
+  "bark.fl_giant_start": "sfx/vox.giant.call.2.mp3",
+  "bark.fl_giant_hurt": "sfx/vox.giant.hurt.2.mp3",
+  "bark.fl_giant_hero_low": "sfx/vox.giant.call.1.mp3",
+  "bark.fl_giant_death": "sfx/vox.giant.death.1.mp3",
+  "bark.fl_giant_cyclops": "sfx/vox.giant.call.2.mp3",
+  "bark.fl_ashw_start": "sfx/vox.ashbeast.call.2.mp3",
+  "bark.fl_ashw_hurt": "sfx/vox.ashbeast.hurt.2.mp3",
+  "bark.fl_ashw_kill": "sfx/vox.ashbeast.attack.1.mp3",
+  "bark.fl_ashw_hero_low": "sfx/vox.ashbeast.call.2.mp3",
+  "bark.fl_risen_hero_low": "sfx/vox.zombie.call.2.mp3",
+  "bark.fl_risen_death": "sfx/vox.zombie.death.2.mp3",
+  "bark.fl_risen_rose": "sfx/vox.zombie.death.2.mp3",
+  "bark.c5_giant_kept_giant": "sfx/vox.giant.call.1.mp3",
+  "bark.c5_giant_broke_giant": "sfx/vox.giant.call.1.mp3",
+  "bark.c5_cyc_freed_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c5_cyc_mock_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c5_cyc_mock_cyclops_low": "sfx/vox.cyclops.call.1.mp3",
+  "bark.c5_eagle_bird": "sfx/vox.bird.call.2.mp3",
+  "bark.c6_net_ash_start": "sfx/vox.ashbeast.call.2.mp3",
+  "bark.c8_rumour_lie_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c8_rumour_legend_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c11_bowl_up_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c11_bowl_ate_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c11_eye_heal_cyclops": "sfx/vox.cyclops.call.1.mp3",
+  "bark.c11_eye_led_cyclops": "sfx/vox.cyclops.call.1.mp3",
+  "bark.c11_eye_kill_cyclops": "sfx/vox.cyclops.call.1.mp3",
+  "bark.c11_ring_guest_cyclops": "sfx/vox.cyclops.call.2.mp3",
+  "bark.c11_ring_cheat_cyclops": "sfx/vox.cyclops.call.1.mp3",
+  "bark.c11_ring_cheat_hurt": "sfx/vox.cyclops.hurt.1.mp3",
+  "bark.c12_ears_warrior_start": "sfx/vox.ashbeast.call.1.mp3"
+ },
+ "sfx": {
+  "swing_blade": [
+   "sfx/swing_blade.1.mp3",
+   "sfx/swing_blade.2.mp3",
+   "sfx/swing_blade.3.mp3"
+  ],
+  "swing_heavy": [
+   "sfx/swing_heavy.1.mp3",
+   "sfx/swing_heavy.2.mp3",
+   "sfx/swing_heavy.3.mp3"
+  ],
+  "swing_blunt": [
+   "sfx/swing_blunt.1.mp3",
+   "sfx/swing_blunt.2.mp3",
+   "sfx/swing_blunt.3.mp3"
+  ],
+  "thrust": [
+   "sfx/thrust.1.mp3",
+   "sfx/thrust.2.mp3",
+   "sfx/thrust.3.mp3"
+  ],
+  "punch": [
+   "sfx/punch.1.mp3",
+   "sfx/punch.2.mp3",
+   "sfx/punch.3.mp3"
+  ],
+  "claw": [
+   "sfx/claw.1.mp3",
+   "sfx/claw.2.mp3",
+   "sfx/claw.3.mp3"
+  ],
+  "bite": [
+   "sfx/bite.1.mp3",
+   "sfx/bite.2.mp3",
+   "sfx/bite.3.mp3"
+  ],
+  "ram": [
+   "sfx/ram.1.mp3",
+   "sfx/ram.2.mp3"
+  ],
+  "talon": [
+   "sfx/talon.1.mp3",
+   "sfx/talon.2.mp3"
+  ],
+  "slam": [
+   "sfx/slam.1.mp3",
+   "sfx/slam.2.mp3"
+  ],
+  "whip": [
+   "sfx/whip.1.mp3",
+   "sfx/whip.2.mp3"
+  ],
+  "ghost_touch": [
+   "sfx/ghost_touch.1.mp3",
+   "sfx/ghost_touch.2.mp3"
+  ],
+  "swarm_sting": [
+   "sfx/swarm_sting.1.mp3",
+   "sfx/swarm_sting.2.mp3"
+  ],
+  "bow": [
+   "sfx/bow.1.mp3",
+   "sfx/bow.2.mp3",
+   "sfx/bow.3.mp3"
+  ],
+  "crossbow": [
+   "sfx/crossbow.1.mp3",
+   "sfx/crossbow.2.mp3"
+  ],
+  "sling": [
+   "sfx/sling.1.mp3",
+   "sfx/sling.2.mp3",
+   "sfx/sling.3.mp3"
+  ],
+  "throw": [
+   "sfx/throw.1.mp3",
+   "sfx/throw.2.mp3",
+   "sfx/throw.3.mp3"
+  ],
+  "blowpipe": [
+   "sfx/blowpipe.1.mp3",
+   "sfx/blowpipe.2.mp3"
+  ],
+  "harpoon": [
+   "sfx/harpoon.1.mp3"
+  ],
+  "net": [
+   "sfx/net.1.mp3"
+  ],
+  "chain": [
+   "sfx/chain.1.mp3"
+  ],
+  "rope": [
+   "sfx/rope.1.mp3"
+  ],
+  "throw_knife": [
+   "sfx/throw_knife.1.mp3",
+   "sfx/throw_knife.2.mp3",
+   "sfx/throw_knife.3.mp3"
+  ],
+  "kick": [
+   "sfx/kick.1.mp3",
+   "sfx/kick.2.mp3"
+  ],
+  "cast_fire": [
+   "sfx/cast_fire.1.mp3",
+   "sfx/cast_fire.2.mp3"
+  ],
+  "cast_lightning": [
+   "sfx/cast_lightning.1.mp3",
+   "sfx/cast_lightning.2.mp3"
+  ],
+  "cast_thunder": [
+   "sfx/cast_thunder.1.mp3",
+   "sfx/cast_thunder.2.mp3"
+  ],
+  "cast_water": [
+   "sfx/cast_water.1.mp3",
+   "sfx/cast_water.2.mp3"
+  ],
+  "cast_chime": [
+   "sfx/cast_chime.1.mp3",
+   "sfx/cast_chime.2.mp3"
+  ],
+  "cast_curse": [
+   "sfx/cast_curse.1.mp3",
+   "sfx/cast_curse.2.mp3"
+  ],
+  "cast_summon": [
+   "sfx/cast_summon.1.mp3",
+   "sfx/cast_summon.2.mp3"
+  ],
+  "cast_shadow": [
+   "sfx/cast_shadow.1.mp3",
+   "sfx/cast_shadow.2.mp3"
+  ],
+  "cast_ash": [
+   "sfx/cast_ash.1.mp3",
+   "sfx/cast_ash.2.mp3"
+  ],
+  "cast_nature": [
+   "sfx/cast_nature.1.mp3",
+   "sfx/cast_nature.2.mp3"
+  ],
+  "drink": [
+   "sfx/drink.1.mp3"
+  ],
+  "shield_up": [
+   "sfx/shield_up.1.mp3"
+  ],
+  "teleport": [
+   "sfx/teleport.1.mp3"
+  ],
+  "smoke": [
+   "sfx/smoke.1.mp3"
+  ],
+  "steal": [
+   "sfx/steal.1.mp3"
+  ],
+  "coins": [
+   "sfx/coins.1.mp3"
+  ],
+  "whirl": [
+   "sfx/whirl.1.mp3"
+  ],
+  "quake": [
+   "sfx/quake.1.mp3"
+  ],
+  "interact": [
+   "sfx/interact.1.mp3"
+  ],
+  "place": [
+   "sfx/place.1.mp3"
+  ],
+  "escape": [
+   "sfx/escape.1.mp3"
+  ],
+  "charge": [
+   "sfx/charge.1.mp3"
+  ],
+  "heal": [
+   "sfx/heal.1.mp3"
+  ],
+  "rise": [
+   "sfx/rise.1.mp3"
+  ],
+  "leap": [
+   "sfx/leap.1.mp3"
+  ],
+  "hit_flesh": [
+   "sfx/hit_flesh.1.mp3",
+   "sfx/hit_flesh.2.mp3",
+   "sfx/hit_flesh.3.mp3"
+  ],
+  "hit_armor": [
+   "sfx/hit_armor.1.mp3",
+   "sfx/hit_armor.2.mp3",
+   "sfx/hit_armor.3.mp3"
+  ],
+  "hit_bone": [
+   "sfx/hit_bone.1.mp3",
+   "sfx/hit_bone.2.mp3",
+   "sfx/hit_bone.3.mp3"
+  ],
+  "hit_stone": [
+   "sfx/hit_stone.1.mp3",
+   "sfx/hit_stone.2.mp3",
+   "sfx/hit_stone.3.mp3"
+  ],
+  "hit_wood": [
+   "sfx/hit_wood.1.mp3",
+   "sfx/hit_wood.2.mp3",
+   "sfx/hit_wood.3.mp3"
+  ],
+  "hit_spirit": [
+   "sfx/hit_spirit.1.mp3",
+   "sfx/hit_spirit.2.mp3",
+   "sfx/hit_spirit.3.mp3"
+  ],
+  "hit_swarm": [
+   "sfx/hit_swarm.1.mp3",
+   "sfx/hit_swarm.2.mp3",
+   "sfx/hit_swarm.3.mp3"
+  ],
+  "hit_fire": [
+   "sfx/hit_fire.1.mp3",
+   "sfx/hit_fire.2.mp3",
+   "sfx/hit_fire.3.mp3"
+  ],
+  "hit_zap": [
+   "sfx/hit_zap.1.mp3",
+   "sfx/hit_zap.2.mp3",
+   "sfx/hit_zap.3.mp3"
+  ],
+  "hit_water": [
+   "sfx/hit_water.1.mp3",
+   "sfx/hit_water.2.mp3",
+   "sfx/hit_water.3.mp3"
+  ],
+  "hit_curse": [
+   "sfx/hit_curse.1.mp3",
+   "sfx/hit_curse.2.mp3",
+   "sfx/hit_curse.3.mp3"
+  ],
+  "deflect": [
+   "sfx/deflect.1.mp3",
+   "sfx/deflect.2.mp3"
+  ],
+  "fall_body": [
+   "sfx/fall_body.1.mp3",
+   "sfx/fall_body.2.mp3"
+  ],
+  "fall_armor": [
+   "sfx/fall_armor.1.mp3",
+   "sfx/fall_armor.2.mp3"
+  ],
+  "fall_bones": [
+   "sfx/fall_bones.1.mp3",
+   "sfx/fall_bones.2.mp3"
+  ],
+  "fall_stone": [
+   "sfx/fall_stone.1.mp3",
+   "sfx/fall_stone.2.mp3"
+  ],
+  "fall_spirit": [
+   "sfx/fall_spirit.1.mp3",
+   "sfx/fall_spirit.2.mp3"
+  ],
+  "fall_beast": [
+   "sfx/fall_beast.1.mp3",
+   "sfx/fall_beast.2.mp3"
+  ],
+  "fall_swarm": [
+   "sfx/fall_swarm.1.mp3",
+   "sfx/fall_swarm.2.mp3"
+  ],
+  "fall_wood": [
+   "sfx/fall_wood.1.mp3",
+   "sfx/fall_wood.2.mp3"
+  ],
+  "fall_height": [
+   "sfx/fall_height.1.mp3",
+   "sfx/fall_height.2.mp3"
+  ],
+  "step_light": [
+   "sfx/step_light.1.mp3",
+   "sfx/step_light.2.mp3",
+   "sfx/step_light.3.mp3"
+  ],
+  "step_heavy": [
+   "sfx/step_heavy.1.mp3",
+   "sfx/step_heavy.2.mp3",
+   "sfx/step_heavy.3.mp3"
+  ],
+  "step_paw": [
+   "sfx/step_paw.1.mp3",
+   "sfx/step_paw.2.mp3",
+   "sfx/step_paw.3.mp3"
+  ],
+  "step_hoof": [
+   "sfx/step_hoof.1.mp3",
+   "sfx/step_hoof.2.mp3",
+   "sfx/step_hoof.3.mp3"
+  ],
+  "step_bone": [
+   "sfx/step_bone.1.mp3",
+   "sfx/step_bone.2.mp3",
+   "sfx/step_bone.3.mp3"
+  ],
+  "step_giant": [
+   "sfx/step_giant.1.mp3",
+   "sfx/step_giant.2.mp3",
+   "sfx/step_giant.3.mp3"
+  ],
+  "step_wing": [
+   "sfx/step_wing.1.mp3",
+   "sfx/step_wing.2.mp3",
+   "sfx/step_wing.3.mp3"
+  ],
+  "step_swarm": [
+   "sfx/step_swarm.1.mp3",
+   "sfx/step_swarm.2.mp3",
+   "sfx/step_swarm.3.mp3"
+  ],
+  "step_water": [
+   "sfx/step_water.1.mp3",
+   "sfx/step_water.2.mp3",
+   "sfx/step_water.3.mp3"
+  ],
+  "push": [
+   "sfx/push.1.mp3"
+  ],
+  "st_burn": [
+   "sfx/st_burn.1.mp3",
+   "sfx/st_burn.2.mp3"
+  ],
+  "st_poison": [
+   "sfx/st_poison.1.mp3",
+   "sfx/st_poison.2.mp3"
+  ],
+  "st_chill": [
+   "sfx/st_chill.1.mp3",
+   "sfx/st_chill.2.mp3"
+  ],
+  "st_stuck": [
+   "sfx/st_stuck.1.mp3",
+   "sfx/st_stuck.2.mp3"
+  ],
+  "st_bless": [
+   "sfx/st_bless.1.mp3",
+   "sfx/st_bless.2.mp3"
+  ],
+  "st_curse": [
+   "sfx/st_curse.1.mp3",
+   "sfx/st_curse.2.mp3"
+  ],
+  "st_hidden": [
+   "sfx/st_hidden.1.mp3",
+   "sfx/st_hidden.2.mp3"
+  ],
+  "st_blind": [
+   "sfx/st_blind.1.mp3",
+   "sfx/st_blind.2.mp3"
+  ],
+  "st_bleed": [
+   "sfx/st_bleed.1.mp3",
+   "sfx/st_bleed.2.mp3"
+  ],
+  "st_wet": [
+   "sfx/st_wet.1.mp3",
+   "sfx/st_wet.2.mp3"
+  ],
+  "st_rage": [
+   "sfx/st_rage.1.mp3",
+   "sfx/st_rage.2.mp3"
+  ],
+  "st_expose": [
+   "sfx/st_expose.1.mp3",
+   "sfx/st_expose.2.mp3"
+  ],
+  "st_mire": [
+   "sfx/st_mire.1.mp3",
+   "sfx/st_mire.2.mp3"
+  ],
+  "st_slip": [
+   "sfx/st_slip.1.mp3",
+   "sfx/st_slip.2.mp3"
+  ],
+  "explosion": [
+   "sfx/explosion.1.mp3",
+   "sfx/explosion.2.mp3"
+  ],
+  "fire_burst": [
+   "sfx/fire_burst.1.mp3"
+  ],
+  "splash": [
+   "sfx/splash.1.mp3"
+  ],
+  "shock": [
+   "sfx/shock.1.mp3"
+  ],
+  "gas": [
+   "sfx/gas.1.mp3"
+  ],
+  "break_wood": [
+   "sfx/break_wood.1.mp3",
+   "sfx/break_wood.2.mp3"
+  ],
+  "break_pottery": [
+   "sfx/break_pottery.1.mp3",
+   "sfx/break_pottery.2.mp3"
+  ],
+  "break_stone": [
+   "sfx/break_stone.1.mp3",
+   "sfx/break_stone.2.mp3"
+  ],
+  "break_metal": [
+   "sfx/break_metal.1.mp3",
+   "sfx/break_metal.2.mp3"
+  ],
+  "creak": [
+   "sfx/creak.1.mp3"
+  ],
+  "trap_snap": [
+   "sfx/trap_snap.1.mp3"
+  ],
+  "crash": [
+   "sfx/crash.1.mp3"
+  ],
+  "dig": [
+   "sfx/dig.1.mp3"
+  ],
+  "rustle": [
+   "sfx/rustle.1.mp3"
+  ],
+  "ash_burst": [
+   "sfx/ash_burst.1.mp3"
+  ],
+  "buzz": [
+   "sfx/buzz.1.mp3"
+  ],
+  "gust": [
+   "sfx/gust.1.mp3"
+  ],
+  "deck": [
+   "sfx/deck.1.mp3"
+  ],
+  "thunder": [
+   "sfx/thunder.1.mp3"
+  ],
+  "rumble": [
+   "sfx/rumble.1.mp3"
+  ],
+  "shards": [
+   "sfx/shards.1.mp3"
+  ],
+  "pickup": [
+   "sfx/pickup.1.mp3"
+  ],
+  "gong": [
+   "sfx/gong.1.mp3"
+  ],
+  "vox.man.attack": [
+   "sfx/vox.man.attack.1.mp3",
+   "sfx/vox.man.attack.2.mp3"
+  ],
+  "vox.man.hurt": [
+   "sfx/vox.man.hurt.1.mp3",
+   "sfx/vox.man.hurt.2.mp3"
+  ],
+  "vox.man.call": [
+   "sfx/vox.man.call.1.mp3",
+   "sfx/vox.man.call.2.mp3"
+  ],
+  "vox.man_big.attack": [
+   "sfx/vox.man_big.attack.1.mp3",
+   "sfx/vox.man_big.attack.2.mp3"
+  ],
+  "vox.man_big.hurt": [
+   "sfx/vox.man_big.hurt.1.mp3",
+   "sfx/vox.man_big.hurt.2.mp3"
+  ],
+  "vox.man_big.death": [
+   "sfx/vox.man_big.death.1.mp3",
+   "sfx/vox.man_big.death.2.mp3"
+  ],
+  "vox.man_big.call": [
+   "sfx/vox.man_big.call.1.mp3",
+   "sfx/vox.man_big.call.2.mp3"
+  ],
+  "vox.woman.attack": [
+   "sfx/vox.woman.attack.1.mp3",
+   "sfx/vox.woman.attack.2.mp3"
+  ],
+  "vox.woman.hurt": [
+   "sfx/vox.woman.hurt.1.mp3",
+   "sfx/vox.woman.hurt.2.mp3"
+  ],
+  "vox.woman.death": [
+   "sfx/vox.woman.death.1.mp3",
+   "sfx/vox.woman.death.2.mp3"
+  ],
+  "vox.woman.call": [
+   "sfx/vox.woman.call.1.mp3",
+   "sfx/vox.woman.call.2.mp3"
+  ],
+  "vox.wolf.attack": [
+   "sfx/vox.wolf.attack.1.mp3",
+   "sfx/vox.wolf.attack.2.mp3"
+  ],
+  "vox.wolf.hurt": [
+   "sfx/vox.wolf.hurt.1.mp3",
+   "sfx/vox.wolf.hurt.2.mp3"
+  ],
+  "vox.wolf.call": [
+   "sfx/vox.wolf.call.1.mp3",
+   "sfx/vox.wolf.call.2.mp3"
+  ],
+  "vox.bear.attack": [
+   "sfx/vox.bear.attack.1.mp3",
+   "sfx/vox.bear.attack.2.mp3"
+  ],
+  "vox.bear.hurt": [
+   "sfx/vox.bear.hurt.1.mp3",
+   "sfx/vox.bear.hurt.2.mp3"
+  ],
+  "vox.bear.death": [
+   "sfx/vox.bear.death.1.mp3",
+   "sfx/vox.bear.death.2.mp3"
+  ],
+  "vox.bear.call": [
+   "sfx/vox.bear.call.1.mp3",
+   "sfx/vox.bear.call.2.mp3"
+  ],
+  "vox.boar.attack": [
+   "sfx/vox.boar.attack.1.mp3",
+   "sfx/vox.boar.attack.2.mp3"
+  ],
+  "vox.boar.hurt": [
+   "sfx/vox.boar.hurt.1.mp3",
+   "sfx/vox.boar.hurt.2.mp3"
+  ],
+  "vox.bull.attack": [
+   "sfx/vox.bull.attack.1.mp3",
+   "sfx/vox.bull.attack.2.mp3"
+  ],
+  "vox.bull.hurt": [
+   "sfx/vox.bull.hurt.1.mp3",
+   "sfx/vox.bull.hurt.2.mp3"
+  ],
+  "vox.bull.death": [
+   "sfx/vox.bull.death.1.mp3",
+   "sfx/vox.bull.death.2.mp3"
+  ],
+  "vox.bull.call": [
+   "sfx/vox.bull.call.1.mp3",
+   "sfx/vox.bull.call.2.mp3"
+  ],
+  "vox.deer.attack": [
+   "sfx/vox.deer.attack.1.mp3",
+   "sfx/vox.deer.attack.2.mp3"
+  ],
+  "vox.deer.hurt": [
+   "sfx/vox.deer.hurt.1.mp3",
+   "sfx/vox.deer.hurt.2.mp3"
+  ],
+  "vox.deer.death": [
+   "sfx/vox.deer.death.1.mp3",
+   "sfx/vox.deer.death.2.mp3"
+  ],
+  "vox.deer.call": [
+   "sfx/vox.deer.call.1.mp3",
+   "sfx/vox.deer.call.2.mp3"
+  ],
+  "vox.bird.attack": [
+   "sfx/vox.bird.attack.1.mp3",
+   "sfx/vox.bird.attack.2.mp3"
+  ],
+  "vox.bird.hurt": [
+   "sfx/vox.bird.hurt.1.mp3",
+   "sfx/vox.bird.hurt.2.mp3"
+  ],
+  "vox.bird.call": [
+   "sfx/vox.bird.call.1.mp3",
+   "sfx/vox.bird.call.2.mp3"
+  ],
+  "vox.goat.attack": [
+   "sfx/vox.goat.attack.1.mp3",
+   "sfx/vox.goat.attack.2.mp3"
+  ],
+  "vox.goat.hurt": [
+   "sfx/vox.goat.hurt.1.mp3",
+   "sfx/vox.goat.hurt.2.mp3"
+  ],
+  "vox.goat.death": [
+   "sfx/vox.goat.death.1.mp3",
+   "sfx/vox.goat.death.2.mp3"
+  ],
+  "vox.goat.call": [
+   "sfx/vox.goat.call.1.mp3",
+   "sfx/vox.goat.call.2.mp3"
+  ],
+  "vox.rat.attack": [
+   "sfx/vox.rat.attack.1.mp3",
+   "sfx/vox.rat.attack.2.mp3"
+  ],
+  "vox.rat.hurt": [
+   "sfx/vox.rat.hurt.1.mp3",
+   "sfx/vox.rat.hurt.2.mp3"
+  ],
+  "vox.rat.death": [
+   "sfx/vox.rat.death.1.mp3",
+   "sfx/vox.rat.death.2.mp3"
+  ],
+  "vox.rat.call": [
+   "sfx/vox.rat.call.1.mp3",
+   "sfx/vox.rat.call.2.mp3"
+  ],
+  "vox.skeleton.attack": [
+   "sfx/vox.skeleton.attack.1.mp3",
+   "sfx/vox.skeleton.attack.2.mp3"
+  ],
+  "vox.skeleton.hurt": [
+   "sfx/vox.skeleton.hurt.1.mp3",
+   "sfx/vox.skeleton.hurt.2.mp3"
+  ],
+  "vox.skeleton.death": [
+   "sfx/vox.skeleton.death.1.mp3",
+   "sfx/vox.skeleton.death.2.mp3"
+  ],
+  "vox.skeleton.call": [
+   "sfx/vox.skeleton.call.1.mp3",
+   "sfx/vox.skeleton.call.2.mp3"
+  ],
+  "vox.zombie.attack": [
+   "sfx/vox.zombie.attack.1.mp3",
+   "sfx/vox.zombie.attack.2.mp3"
+  ],
+  "vox.zombie.hurt": [
+   "sfx/vox.zombie.hurt.1.mp3",
+   "sfx/vox.zombie.hurt.2.mp3"
+  ],
+  "vox.zombie.death": [
+   "sfx/vox.zombie.death.1.mp3",
+   "sfx/vox.zombie.death.2.mp3"
+  ],
+  "vox.zombie.call": [
+   "sfx/vox.zombie.call.1.mp3",
+   "sfx/vox.zombie.call.2.mp3"
+  ],
+  "vox.ghoul.attack": [
+   "sfx/vox.ghoul.attack.1.mp3",
+   "sfx/vox.ghoul.attack.2.mp3"
+  ],
+  "vox.ghoul.hurt": [
+   "sfx/vox.ghoul.hurt.1.mp3",
+   "sfx/vox.ghoul.hurt.2.mp3"
+  ],
+  "vox.ghoul.death": [
+   "sfx/vox.ghoul.death.1.mp3",
+   "sfx/vox.ghoul.death.2.mp3"
+  ],
+  "vox.ghoul.call": [
+   "sfx/vox.ghoul.call.1.mp3",
+   "sfx/vox.ghoul.call.2.mp3"
+  ],
+  "vox.spirit.attack": [
+   "sfx/vox.spirit.attack.1.mp3",
+   "sfx/vox.spirit.attack.2.mp3"
+  ],
+  "vox.spirit.hurt": [
+   "sfx/vox.spirit.hurt.1.mp3",
+   "sfx/vox.spirit.hurt.2.mp3"
+  ],
+  "vox.spirit.death": [
+   "sfx/vox.spirit.death.1.mp3",
+   "sfx/vox.spirit.death.2.mp3"
+  ],
+  "vox.spirit.call": [
+   "sfx/vox.spirit.call.1.mp3",
+   "sfx/vox.spirit.call.2.mp3"
+  ],
+  "vox.giant.attack": [
+   "sfx/vox.giant.attack.1.mp3",
+   "sfx/vox.giant.attack.2.mp3"
+  ],
+  "vox.giant.hurt": [
+   "sfx/vox.giant.hurt.1.mp3",
+   "sfx/vox.giant.hurt.2.mp3"
+  ],
+  "vox.giant.death": [
+   "sfx/vox.giant.death.1.mp3",
+   "sfx/vox.giant.death.2.mp3"
+  ],
+  "vox.giant.call": [
+   "sfx/vox.giant.call.1.mp3",
+   "sfx/vox.giant.call.2.mp3"
+  ],
+  "vox.cyclops.attack": [
+   "sfx/vox.cyclops.attack.1.mp3",
+   "sfx/vox.cyclops.attack.2.mp3"
+  ],
+  "vox.cyclops.hurt": [
+   "sfx/vox.cyclops.hurt.1.mp3",
+   "sfx/vox.cyclops.hurt.2.mp3"
+  ],
+  "vox.cyclops.death": [
+   "sfx/vox.cyclops.death.1.mp3",
+   "sfx/vox.cyclops.death.2.mp3"
+  ],
+  "vox.cyclops.call": [
+   "sfx/vox.cyclops.call.1.mp3",
+   "sfx/vox.cyclops.call.2.mp3"
+  ],
+  "vox.lurker.attack": [
+   "sfx/vox.lurker.attack.1.mp3",
+   "sfx/vox.lurker.attack.2.mp3"
+  ],
+  "vox.lurker.hurt": [
+   "sfx/vox.lurker.hurt.1.mp3",
+   "sfx/vox.lurker.hurt.2.mp3"
+  ],
+  "vox.lurker.death": [
+   "sfx/vox.lurker.death.1.mp3",
+   "sfx/vox.lurker.death.2.mp3"
+  ],
+  "vox.lurker.call": [
+   "sfx/vox.lurker.call.1.mp3",
+   "sfx/vox.lurker.call.2.mp3"
+  ],
+  "vox.ashbeast.attack": [
+   "sfx/vox.ashbeast.attack.1.mp3",
+   "sfx/vox.ashbeast.attack.2.mp3"
+  ],
+  "vox.ashbeast.hurt": [
+   "sfx/vox.ashbeast.hurt.1.mp3",
+   "sfx/vox.ashbeast.hurt.2.mp3"
+  ],
+  "vox.ashbeast.death": [
+   "sfx/vox.ashbeast.death.1.mp3",
+   "sfx/vox.ashbeast.death.2.mp3"
+  ],
+  "vox.ashbeast.call": [
+   "sfx/vox.ashbeast.call.1.mp3",
+   "sfx/vox.ashbeast.call.2.mp3"
+  ],
+  "vox.man.death": [
+   "sfx/vox.man.death.1.mp3",
+   "sfx/vox.man.death.2.mp3"
+  ],
+  "vox.wolf.death": [
+   "sfx/vox.wolf.death.1.mp3",
+   "sfx/vox.wolf.death.2.mp3"
+  ],
+  "vox.boar.death": [
+   "sfx/vox.boar.death.1.mp3",
+   "sfx/vox.boar.death.2.mp3"
+  ],
+  "vox.boar.call": [
+   "sfx/vox.boar.call.1.mp3",
+   "sfx/vox.boar.call.2.mp3"
+  ],
+  "vox.bird.death": [
+   "sfx/vox.bird.death.1.mp3",
+   "sfx/vox.bird.death.2.mp3"
+  ]
+ }
+}

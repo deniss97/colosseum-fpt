@@ -1,0 +1,128 @@
+{
+  "hit": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.8,
+    "source": "Sparks"
+  },
+  "impact": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.6,
+    "source": "Shockwave"
+  },
+  "dust": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.9,
+    "source": "Colosseum Dust Burst"
+  },
+  "splash": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.8,
+    "source": "Colosseum Water Splash"
+  },
+  "fire": {
+    "cols": 4,
+    "rows": 4,
+    "frames": 16,
+    "dur": 3,
+    "source": "flame"
+  },
+  "zap": {
+    "cols": 3,
+    "rows": 3,
+    "frames": 9,
+    "dur": 0.4,
+    "source": "Capacitor"
+  },
+  "poison": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.691,
+    "source": "Poison"
+  },
+  "slash": {
+    "cols": 3,
+    "rows": 3,
+    "frames": 9,
+    "dur": 0.36,
+    "source": "Colosseum Slash"
+  },
+  "blood": {
+    "cols": 3,
+    "rows": 3,
+    "frames": 9,
+    "dur": 0.6,
+    "source": "Colosseum Blood"
+  },
+  "blast": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.9,
+    "source": "Colosseum Fire Blast"
+  },
+  "lightning": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.5,
+    "source": "Colosseum Lightning"
+  },
+  "heal": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 1,
+    "source": "Colosseum Heal"
+  },
+  "bless": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 0.9,
+    "source": "Colosseum Bless"
+  },
+  "curse": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 1,
+    "source": "Colosseum Curse"
+  },
+  "summon": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 1.1,
+    "source": "Colosseum Summon"
+  },
+  "smoke": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "dur": 1.1,
+    "source": "Colosseum Smoke"
+  },
+  "frost": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.7,
+    "source": "Colosseum Frost"
+  },
+  "ward": {
+    "cols": 4,
+    "rows": 2,
+    "frames": 8,
+    "dur": 0.8,
+    "source": "Colosseum Ward"
+  }
+}
