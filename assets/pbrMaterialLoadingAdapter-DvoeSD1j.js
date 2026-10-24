@@ -1,0 +1,1 @@
+import{t as e}from"./pbrMaterialLoadingAdapter-C8f4QT57.js";export{e as PBRMaterialLoadingAdapter};

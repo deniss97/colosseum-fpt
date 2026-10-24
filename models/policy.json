@@ -1,0 +1,887 @@
+{
+  "version": 1,
+  "name": "learned",
+  "strategy": {
+    "potion": 2.113461041683542,
+    "escape": 0.8234602163792448,
+    "objective": 1.2089254884634326,
+    "spell": 2.873839461184638,
+    "env": 0.20964846949493443,
+    "strike": 1.9706411020999626,
+    "ranged": 0.11383095113791264,
+    "advance": 0.8794565779576202,
+    "retreat": 0.32050840410295994,
+    "kite": 0,
+    "buy_potion": 0.6538258402662536,
+    "buy_food": 1.110642342183489,
+    "learn_skill": 1,
+    "buy_item": 0.7384035129002616,
+    "allocate_stat": 1,
+    "prefer_event": 0.6784108406000612,
+    "prefer_battle": 1.2134217455004643,
+    "go_direct": 0.47132828610445654,
+    "quest": 0.40136721404767983,
+    "arena_min_level": 7,
+    "skill_warrior": 3,
+    "skill_mage": 0.2,
+    "skill_archer": 0.4,
+    "skill_world": 1.5,
+    "skill_enchanter": 1,
+    "school_duelist": 1,
+    "school_legion": 1,
+    "school_vanguard": 1,
+    "school_marksman": 1,
+    "school_skirmisher": 1,
+    "school_beastmaster": 1,
+    "school_pyromancer": 1,
+    "school_stormcaller": 1,
+    "school_blessing": 1,
+    "school_curse": 1,
+    "school_brawler": 1,
+    "school_rogue": 1,
+    "stat_hp": 0.6054106552852825,
+    "stat_atk": 4.510313441017334,
+    "stat_def": 1.4207775412483838,
+    "stat_speed": 2.2911351769293122,
+    "stat_initiative": 0.3787106655694637,
+    "goal_hp": 0,
+    "goal_speed": 0,
+    "goal_initiative": 0,
+    "loot_hp": 0,
+    "loot_atk": 3.558277205676411,
+    "loot_def": 3.5650798397364962,
+    "loot_speed": 1.0630040740597697,
+    "loot_initiative": 0.09599646158223096,
+    "potion_threshold": 0.33733844055473194,
+    "direct_hp_ratio": 0.4846757395626141,
+    "w_kill": 4.270969192898022,
+    "w_self_harm": 13.098079824117628,
+    "w_fuel": 0.31133349267840277,
+    "w_conduct": 5.9000239688242155,
+    "w_break": 1.7827609081282365,
+    "w_push": 1.7023417356580164,
+    "w_ideal_dist": 4.1987492836122495,
+    "w_cover": 1.2888261010471245,
+    "w_threat": 0.736439124625754,
+    "ev_rep": 0,
+    "ev_hp": 0.14184455408316915,
+    "ev_xp": 0.937453244050555,
+    "ev_potion": 10.175448847386258,
+    "ev_item": 5.276754096421751,
+    "ev_lose": 1.6332681668395606,
+    "ev_flag": 1.461496550223292,
+    "ev_risk": 0.09690093870544898,
+    "ev_learned": 0.15260198909203873,
+    "w_mode_risk": 0.12096338685930728
+  },
+  "events": {
+    "road_herald:a:0": {
+      "n": 395954,
+      "mean": 2.7490473357089433
+    },
+    "road_herald:accepted:0": {
+      "n": 395954,
+      "mean": -0.10786859079590001
+    },
+    "road_herald_return:a:1": {
+      "n": 242068,
+      "mean": 3.123349722789585
+    },
+    "road_herald_return:beaten:0": {
+      "n": 59160,
+      "mean": -0.8698951994590937
+    },
+    "road_shrine:a:2": {
+      "n": 98088,
+      "mean": 0.1006647092406824
+    },
+    "road_water_wreck:a:0": {
+      "n": 14534,
+      "mean": 1.7885823783540025
+    },
+    "road_water_wreck:found:0": {
+      "n": 11398,
+      "mean": -0.4413054921916135
+    },
+    "road_fugitive:a:1": {
+      "n": 1323814,
+      "mean": 1.8128095601486702
+    },
+    "road_fugitive:betrayed:0": {
+      "n": 1323814,
+      "mean": 0.22439934915327825
+    },
+    "road_guards_search:a:1": {
+      "n": 743798,
+      "mean": 4.625751746574712
+    },
+    "road_guards_search:won:0": {
+      "n": 567402,
+      "mean": 0.6891709934050317
+    },
+    "road_thief:a:0": {
+      "n": 390410,
+      "mean": 3.818351283960075
+    },
+    "road_thief:caught:0": {
+      "n": 303938,
+      "mean": 0.02972316722489421
+    },
+    "road_herald_return:refused:0": {
+      "n": 182908,
+      "mean": 0.5822599339558658
+    },
+    "forest_strange_mushroom:a:0": {
+      "n": 423096,
+      "mean": 8.312508581798712
+    },
+    "graveyard_crypt_whisper:a:0": {
+      "n": 1231394,
+      "mean": 6.559183592273137
+    },
+    "graveyard_crypt_whisper:answered:0": {
+      "n": 1048244,
+      "mean": 0.4805217105941013
+    },
+    "road_graveyard_ghost:a:0": {
+      "n": 429078,
+      "mean": 6.31402407643057
+    },
+    "road_graveyard_ghost:blessed:0": {
+      "n": 281784,
+      "mean": -0.011444936547142277
+    },
+    "road_graveyard_ghost_gift:a:0": {
+      "n": 70622,
+      "mean": 3.7288443178228663
+    },
+    "road_forest_druid:a:1": {
+      "n": 268864,
+      "mean": 8.271092054473696
+    },
+    "city_drunk_guard:a:3": {
+      "n": 16546,
+      "mean": -0.27474918409283156
+    },
+    "road_thief:a:1": {
+      "n": 1017978,
+      "mean": 0.6077465403030269
+    },
+    "road_merchant:a:3": {
+      "n": 554922,
+      "mean": -0.34911212747016757
+    },
+    "road_gambler:a:1": {
+      "n": 1171070,
+      "mean": 2.05672389531024
+    },
+    "city_abandoned_shop:a:1": {
+      "n": 306046,
+      "mean": 4.301858448983232
+    },
+    "city_abandoned_shop:cellar:0": {
+      "n": 306046,
+      "mean": 0.35468851087744985
+    },
+    "road_mountains_avalanche:a:0": {
+      "n": 113676,
+      "mean": -0.3863002793065618
+    },
+    "road_shrine:a:0": {
+      "n": 1248384,
+      "mean": 4.599825056854296
+    },
+    "road_wounded_gladiator:a:1": {
+      "n": 946904,
+      "mean": 2.3791067849489838
+    },
+    "road_wounded_gladiator:looted:0": {
+      "n": 829116,
+      "mean": 0.5253908982579057
+    },
+    "water_drowning_slave:a:0": {
+      "n": 406090,
+      "mean": 0.8631801520808078
+    },
+    "water_drowning_slave:saved:0": {
+      "n": 368516,
+      "mean": 2.4687422218087196
+    },
+    "road_graveyard_gravedigger:a:0": {
+      "n": 88912,
+      "mean": 2.2127178371758713
+    },
+    "road_graveyard_gravedigger:dug:0": {
+      "n": 83524,
+      "mean": 0.10885493989751427
+    },
+    "graveyard_open_grave:a:1": {
+      "n": 763316,
+      "mean": 1.1715694005532375
+    },
+    "road_water_ferryman:a:2": {
+      "n": 166174,
+      "mean": 4.264704599631508
+    },
+    "forest_wounded_beast:a:1": {
+      "n": 420446,
+      "mean": 5.928217935307318
+    },
+    "road_gambler:a:0": {
+      "n": 156396,
+      "mean": 0.8713030287367763
+    },
+    "road_gambler:won:0": {
+      "n": 93742,
+      "mean": 0.426127029506517
+    },
+    "forest_wounded_beast:a:0": {
+      "n": 113002,
+      "mean": 1.9482344025880214
+    },
+    "forest_wounded_beast:helped:0": {
+      "n": 79224,
+      "mean": 0.1398313642330596
+    },
+    "road_wounded_gladiator:a:0": {
+      "n": 72324,
+      "mean": -0.9899662036980319
+    },
+    "road_wounded_gladiator:saved:0": {
+      "n": 72324,
+      "mean": 0.304739782091698
+    },
+    "road_gladiator_repays:a:0": {
+      "n": 42604,
+      "mean": 4.695551130990705
+    },
+    "road_mountains_miner:a:2": {
+      "n": 190646,
+      "mean": 5.544141207324198
+    },
+    "mountains_rockfall:a:1": {
+      "n": 133810,
+      "mean": -1.0496181725391067
+    },
+    "road_wounded_gladiator:a:2": {
+      "n": 384086,
+      "mean": -0.2536593367110479
+    },
+    "graveyard_open_grave:a:0": {
+      "n": 497120,
+      "mean": 2.608593227526277
+    },
+    "mountains_hermit:a:0": {
+      "n": 252192,
+      "mean": 3.7915242502204674
+    },
+    "mountains_hermit:story:0": {
+      "n": 252192,
+      "mean": -0.11965090090090298
+    },
+    "road_merchant:a:1": {
+      "n": 767594,
+      "mean": 4.011839829644834
+    },
+    "city_abandoned_shop:a:0": {
+      "n": 108596,
+      "mean": 1.2214997841160904
+    },
+    "city_abandoned_shop:found:0": {
+      "n": 71794,
+      "mean": 0.02344207036799735
+    },
+    "road_forest_trap:a:0": {
+      "n": 90372,
+      "mean": 4.704506812922065
+    },
+    "road_forest_trap:noticed:0": {
+      "n": 63496,
+      "mean": 0.49039309562807143
+    },
+    "road_gambler:lost:0": {
+      "n": 62654,
+      "mean": 0.09239633542950344
+    },
+    "road_herald_return:a:0": {
+      "n": 67678,
+      "mean": -2.4817344767275387
+    },
+    "road_herald_return:obeyed:0": {
+      "n": 67678,
+      "mean": -0.5781346966517923
+    },
+    "forest_strange_mushroom:a:1": {
+      "n": 147898,
+      "mean": 3.632433644472206
+    },
+    "road_forest_druid:a:2": {
+      "n": 42654,
+      "mean": 2.7314485886652187
+    },
+    "road_graveyard_ghost_gift:a:1": {
+      "n": 118450,
+      "mean": 6.284906512549769
+    },
+    "road_city_blacksmith:a:2": {
+      "n": 153572,
+      "mean": -0.3006212069908569
+    },
+    "city_drunk_guard:a:2": {
+      "n": 415914,
+      "mean": 3.399387595003279
+    },
+    "city_drunk_guard:talk:0": {
+      "n": 415914,
+      "mean": 0.027082521867503748
+    },
+    "mountains_hermit:a:1": {
+      "n": 191158,
+      "mean": 3.519790868620684
+    },
+    "road_water_wreck:a:1": {
+      "n": 231942,
+      "mean": 4.164508947794983
+    },
+    "road_guards_search:a:2": {
+      "n": 37162,
+      "mean": -0.14598245519616918
+    },
+    "road_guards_search:respected:0": {
+      "n": 37162,
+      "mean": -0.14598245519616918
+    },
+    "city_drunk_guard:a:0": {
+      "n": 51910,
+      "mean": 1.1814387484917532
+    },
+    "city_drunk_guard:robbed:0": {
+      "n": 47826,
+      "mean": 0.36289884163426056
+    },
+    "road_city_blacksmith:a:1": {
+      "n": 36824,
+      "mean": 2.996116575406334
+    },
+    "water_sunken_chest:a:0": {
+      "n": 421314,
+      "mean": 2.4603251011615646
+    },
+    "road_shrine:a:1": {
+      "n": 72070,
+      "mean": -0.8172179371897124
+    },
+    "water_sunken_chest:a:2": {
+      "n": 62206,
+      "mean": -0.2789602289168241
+    },
+    "mountains_rockfall:a:0": {
+      "n": 218074,
+      "mean": 3.182288976598117
+    },
+    "road_mountains_miner:a:1": {
+      "n": 12674,
+      "mean": 2.8986298487007414
+    },
+    "road_merchant:a:0": {
+      "n": 26996,
+      "mean": 1.6518752860038475
+    },
+    "forest_wounded_beast:a:2": {
+      "n": 65582,
+      "mean": 0.05736330090573681
+    },
+    "road_guards_search:a:0": {
+      "n": 239934,
+      "mean": -2.306520251507407
+    },
+    "road_guards_search:paid:0": {
+      "n": 239934,
+      "mean": -0.18992306217543034
+    },
+    "road_herald:a:1": {
+      "n": 1025352,
+      "mean": 4.650583362773218
+    },
+    "road_herald:refused:0": {
+      "n": 1025352,
+      "mean": 0.38336103113857645
+    },
+    "road_water_wreck:a:2": {
+      "n": 13128,
+      "mean": 0.06352833638025573
+    },
+    "forest_strange_mushroom:a:2": {
+      "n": 31330,
+      "mean": 0.3938716884774979
+    },
+    "road_fugitive:a:0": {
+      "n": 75992,
+      "mean": 1.5196459075047954
+    },
+    "road_fugitive:hidden:0": {
+      "n": 75992,
+      "mean": 0.3130329508369302
+    },
+    "road_fugitive_return:a:0": {
+      "n": 53652,
+      "mean": 7.943949767305074
+    },
+    "road_fugitive_return:taken:0": {
+      "n": 53652,
+      "mean": 0.5338291210020134
+    },
+    "mountains_hermit:a:2": {
+      "n": 22884,
+      "mean": -0.18851599370739533
+    },
+    "road_graveyard_gravedigger:a:1": {
+      "n": 348422,
+      "mean": 4.810309867695454
+    },
+    "road_city_blacksmith:a:0": {
+      "n": 69128,
+      "mean": 3.106177621548883
+    },
+    "forest_wounded_beast:bitten:0": {
+      "n": 33778,
+      "mean": 0.5641541831961625
+    },
+    "road_forest_trap:a:1": {
+      "n": 237608,
+      "mean": 2.4208232393859714
+    },
+    "mountains_rockfall:a:2": {
+      "n": 112966,
+      "mean": 3.7451414083512624
+    },
+    "road_thief:escaped:0": {
+      "n": 86472,
+      "mean": 0.26135627717642756
+    },
+    "road_fugitive:a:2": {
+      "n": 73912,
+      "mean": 0.32853934408485835
+    },
+    "road_gambler:a:2": {
+      "n": 69888,
+      "mean": 0.35800137362637396
+    },
+    "road_city_riot:a:0": {
+      "n": 110956,
+      "mean": 2.250131643464856
+    },
+    "road_mountains_avalanche:a:1": {
+      "n": 51350,
+      "mean": 2.1757160141498577
+    },
+    "road_wounded_gladiator:fought:0": {
+      "n": 117788,
+      "mean": 0.19899310625870287
+    },
+    "road_mountains_miner:a:0": {
+      "n": 5160,
+      "mean": 2.155787212003989
+    },
+    "road_city_riot:a:1": {
+      "n": 113154,
+      "mean": 1.2211305019350303
+    },
+    "road_city_riot:joined:0": {
+      "n": 109268,
+      "mean": 0.5178551817549519
+    },
+    "graveyard_crypt_whisper:a:1": {
+      "n": 137198,
+      "mean": 0.8510619688333655
+    },
+    "city_drunk_guard:a:1": {
+      "n": 18794,
+      "mean": 0.0927268217902313
+    },
+    "water_drowning_slave:a:1": {
+      "n": 99504,
+      "mean": 0.7934454896285569
+    },
+    "road_forest_trap:sprung:0": {
+      "n": 26876,
+      "mean": 0.2960634022920079
+    },
+    "road_fugitive_return:a:1": {
+      "n": 4484,
+      "mean": 1.0544147306087657
+    },
+    "city_drunk_guard:caught:0": {
+      "n": 4084,
+      "mean": -0.8428011753183156
+    },
+    "water_sunken_chest:a:1": {
+      "n": 16916,
+      "mean": 1.4548497675042633
+    },
+    "road_water_ferryman:a:0": {
+      "n": 12384,
+      "mean": -0.7470543581285145
+    },
+    "water_drowning_slave:saved:1": {
+      "n": 32064,
+      "mean": -0.16136477045908232
+    },
+    "road_mountains_avalanche:a:2": {
+      "n": 69442,
+      "mean": 4.295570998614352
+    },
+    "road_merchant:a:2": {
+      "n": 49404,
+      "mean": 0.6936100613124182
+    },
+    "road_guards_search:beaten:0": {
+      "n": 176396,
+      "mean": 0.38072291888704984
+    },
+    "road_water_ferryman:a:1": {
+      "n": 75628,
+      "mean": -1.6412113516417157
+    },
+    "city_abandoned_shop:a:2": {
+      "n": 93342,
+      "mean": -0.536575175162307
+    },
+    "road_gladiator_repays:a:1": {
+      "n": 3890,
+      "mean": 1.5726430948724792
+    },
+    "road_city_riot:a:2": {
+      "n": 36974,
+      "mean": -1.133739087727227
+    },
+    "road_graveyard_ghost:a:1": {
+      "n": 43792,
+      "mean": 0.5279493755242749
+    },
+    "city_abandoned_shop:trap:0": {
+      "n": 36802,
+      "mean": -0.22566708331069088
+    },
+    "graveyard_open_grave:a:2": {
+      "n": 97678,
+      "mean": 0.7323348143901381
+    },
+    "road_graveyard_gravedigger:a:2": {
+      "n": 23482,
+      "mean": 0.4326292479345868
+    },
+    "road_forest_druid:a:0": {
+      "n": 16614,
+      "mean": 0.2839124880954308
+    },
+    "road_mountains_miner:a:3": {
+      "n": 28142,
+      "mean": -0.6260749058346903
+    },
+    "road_city_riot:crushed:0": {
+      "n": 3886,
+      "mean": -0.986618630983015
+    },
+    "graveyard_diary:a:0": {
+      "n": 564466,
+      "mean": 5.776743510967142
+    },
+    "road_graveyard_gravedigger:tired:0": {
+      "n": 5388,
+      "mean": -0.6865256124721619
+    },
+    "city_street_fight:a:2": {
+      "n": 46050,
+      "mean": 2.7118711900982544
+    },
+    "water_bridge:a:1": {
+      "n": 66184,
+      "mean": 6.14609520981819
+    },
+    "water_fisherman:a:2": {
+      "n": 68234,
+      "mean": 5.7616416778035076
+    },
+    "water_fisherman:story:0": {
+      "n": 68234,
+      "mean": 1.211683325028579
+    },
+    "road_graveyard_ghost:cursed:0": {
+      "n": 147294,
+      "mean": 1.465097016850656
+    },
+    "camp_training:a:0": {
+      "n": 230654,
+      "mean": 8.547861413904162
+    },
+    "camp_training:trained:0": {
+      "n": 230654,
+      "mean": 4.105690774926943
+    },
+    "forest_hollow_oak:a:1": {
+      "n": 161168,
+      "mean": 1.5454259115530269
+    },
+    "city_apothecary:a:4": {
+      "n": 3294,
+      "mean": 1.2556162720097186
+    },
+    "graveyard_mourner:a:1": {
+      "n": 100852,
+      "mean": 4.375996932939612
+    },
+    "graveyard_mourner:gifted:0": {
+      "n": 100852,
+      "mean": 1.7088505929480824
+    },
+    "graveyard_bone_pile:a:1": {
+      "n": 218056,
+      "mean": 8.530772412461474
+    },
+    "camp_respec_stats:a:1": {
+      "n": 47212,
+      "mean": 6.289315605483885
+    },
+    "camp_change_spec:a:1": {
+      "n": 43794,
+      "mean": 8.632949596463595
+    },
+    "forest_old_hunter:a:3": {
+      "n": 8492,
+      "mean": 1.4773904851625055
+    },
+    "forest_old_hunter:a:0": {
+      "n": 162444,
+      "mean": 3.8609074226141966
+    },
+    "forest_old_hunter:learned:0": {
+      "n": 28608,
+      "mean": 2.3494127516778534
+    },
+    "mountains_cave_echo:a:1": {
+      "n": 40094,
+      "mean": 6.800179244403087
+    },
+    "forest_old_hunter:a:2": {
+      "n": 9076,
+      "mean": 1.705739703041478
+    },
+    "graveyard_mourner:a:0": {
+      "n": 122770,
+      "mean": 4.142992450549835
+    },
+    "graveyard_mourner:comforted:0": {
+      "n": 122770,
+      "mean": 1.4566506475523358
+    },
+    "graveyard_mourner:a:3": {
+      "n": 9822,
+      "mean": 1.4212991244145778
+    },
+    "city_apothecary:a:2": {
+      "n": 54166,
+      "mean": 5.462305384289272
+    },
+    "mountains_eagle_nest:a:1": {
+      "n": 39884,
+      "mean": 6.704840940944796
+    },
+    "city_street_fight:a:1": {
+      "n": 24826,
+      "mean": 7.216714886566521
+    },
+    "city_street_fight:hero:0": {
+      "n": 22130,
+      "mean": 3.1631269769543553
+    },
+    "water_fisherman:a:0": {
+      "n": 3382,
+      "mean": 1.9415748714830487
+    },
+    "water_fisherman:hauled:0": {
+      "n": 1458,
+      "mean": 2.6954732510288086
+    },
+    "camp_change_spec:a:0": {
+      "n": 3502,
+      "mean": 3.165314715515062
+    },
+    "camp_change_spec:changed:0": {
+      "n": 3502,
+      "mean": 3.9685893774985725
+    },
+    "water_drowning_slave:lost:0": {
+      "n": 5510,
+      "mean": 1.1088929219600734
+    },
+    "mountains_eagle_nest:a:0": {
+      "n": 2336,
+      "mean": 3.6850806367402225
+    },
+    "mountains_eagle_nest:taken:0": {
+      "n": 1764,
+      "mean": 2.5634920634920664
+    },
+    "city_street_fight:a:0": {
+      "n": 3624,
+      "mean": 1.9983683089881779
+    },
+    "city_street_fight:won:0": {
+      "n": 548,
+      "mean": 3.6076642335766422
+    },
+    "mountains_cave_echo:a:0": {
+      "n": 2264,
+      "mean": 1.765222066922762
+    },
+    "mountains_cave_echo:understood:0": {
+      "n": 272,
+      "mean": 3.5588235294117645
+    },
+    "camp_respec_stats:a:0": {
+      "n": 3992,
+      "mean": 1.9993298983606809
+    },
+    "camp_respec_stats:respec:0": {
+      "n": 3650,
+      "mean": 3.9442969909723673
+    },
+    "camp_respec_stats:trained:0": {
+      "n": 3650,
+      "mean": 2.955616438356165
+    },
+    "camp_training:a:1": {
+      "n": 18964,
+      "mean": 3.857360333924894
+    },
+    "forest_old_hunter:slow:0": {
+      "n": 133836,
+      "mean": 1.3278714247287737
+    },
+    "graveyard_bone_pile:a:0": {
+      "n": 12036,
+      "mean": 4.273892081439566
+    },
+    "graveyard_bone_pile:found:0": {
+      "n": 12032,
+      "mean": 1.6041389627659575
+    },
+    "city_apothecary:a:0": {
+      "n": 13778,
+      "mean": 7.769540316776336
+    },
+    "water_bridge:a:2": {
+      "n": 4196,
+      "mean": 0.8378340352361667
+    },
+    "forest_hollow_oak:a:0": {
+      "n": 9878,
+      "mean": 0.7927586240422367
+    },
+    "forest_hollow_oak:fell:0": {
+      "n": 9820,
+      "mean": 1.471181262729125
+    },
+    "graveyard_bone_pile:bitten:0": {
+      "n": 4,
+      "mean": 1.5
+    },
+    "forest_hollow_oak:a:2": {
+      "n": 11280,
+      "mean": 1.5181737588652482
+    },
+    "graveyard_bone_pile:a:2": {
+      "n": 11584,
+      "mean": 1.5418680939226532
+    },
+    "graveyard_mourner:a:2": {
+      "n": 9940,
+      "mean": 0.7594197608819573
+    },
+    "forest_old_hunter:a:1": {
+      "n": 1908,
+      "mean": 4.187800552534892
+    },
+    "mountains_cave_echo:lost:0": {
+      "n": 1992,
+      "mean": 1.9432730923694796
+    },
+    "mountains_eagle_nest:a:2": {
+      "n": 2200,
+      "mean": 2.1395454545454506
+    },
+    "mountains_cave_echo:a:2": {
+      "n": 2384,
+      "mean": 2.4395973154362434
+    },
+    "water_fisherman:snapped:0": {
+      "n": 1924,
+      "mean": -0.19750519750519765
+    },
+    "mountains_eagle_nest:pecked:0": {
+      "n": 572,
+      "mean": 0.8583916083916082
+    },
+    "water_bridge:a:0": {
+      "n": 4030,
+      "mean": -1.4054345134427735
+    },
+    "water_bridge:fell:0": {
+      "n": 4030,
+      "mean": 0.9397022332506213
+    },
+    "water_fisherman:a:1": {
+      "n": 4012,
+      "mean": 1.1515128086860715
+    },
+    "mountains_hermit:a:3": {
+      "n": 2518,
+      "mean": 1.8109610802223999
+    },
+    "city_drunk_guard:a:4": {
+      "n": 2878,
+      "mean": 1.0462126476719942
+    },
+    "city_apothecary:a:1": {
+      "n": 3934,
+      "mean": 0.37066964083382664
+    },
+    "city_apothecary:tasted:0": {
+      "n": 1266,
+      "mean": 2.1635071090047377
+    },
+    "city_street_fight:beaten:0": {
+      "n": 2696,
+      "mean": 0.20363501483679558
+    },
+    "city_street_fight:lost:0": {
+      "n": 3076,
+      "mean": 1.3930429128738613
+    },
+    "camp_respec_stats:respec:1": {
+      "n": 342,
+      "mean": 1.152046783625731
+    },
+    "city_apothecary:sick:0": {
+      "n": 2668,
+      "mean": -0.020614692653673192
+    },
+    "road_water_wreck:cut:0": {
+      "n": 3136,
+      "mean": 0.9177295918367332
+    },
+    "forest_hollow_oak:found:0": {
+      "n": 58,
+      "mean": -2
+    }
+  },
+  "generation": 9931,
+  "fitness": 246.8,
+  "updatedAt": "2026-10-07T04:38:20.119Z",
+  "skills": false,
+  "restrictions": {
+    "frozen": [],
+    "disabled": []
+  }
+}

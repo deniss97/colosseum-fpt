@@ -1,0 +1,29 @@
+import{T as e,u as t}from"./render-BHQmHStR.js";import{n,o as r,t as i}from"./math.vector.pure-l1Hp4RUF.js";import{g as a,m as o,p as s,v as c,w as l,y as u}from"./shapes-Cr89yIb6.js";import{n as d}from"./texture.pure-C6TZPhKq.js";import{l as f}from"./pbrMaterial.pure-B72oUcva.js";var p=class extends f{clock;constructor(e,t){super(e,`CrowdCard`,600,{CROWDCARD:!1},!0,!0),this.clock=t}getClassName(){return`CrowdCardPlugin`}prepareDefines(e){e.CROWDCARD=!0}getAttributes(e){e.push(`crowdData`)}getUniforms(){return{ubo:[{name:`crowdA`,size:4,type:`vec4`},{name:`crowdB`,size:4,type:`vec4`},{name:`crowdEyePos`,size:4,type:`vec4`}],vertex:`#ifdef CROWDCARD
+uniform vec4 crowdA;
+uniform vec4 crowdB;
+uniform vec4 crowdEyePos;
+#endif`}}bindForSubMesh(t,n,r,i){let a=e.ARENA.CROWD;t.updateFloat4(`crowdA`,this.clock.time,this.clock.excitement,a.SWAY,a.SWAY_SPEED),t.updateFloat4(`crowdB`,e.FAN_JUMP,a.JUMP_SPEED,e.CROWD_TYPES,0);let o=n.activeCamera?.globalPosition;t.updateFloat4(`crowdEyePos`,o?.x??0,o?.y??0,o?.z??0,0)}getCustomCode(e){return e===`vertex`?m:null}},m={CUSTOM_VERTEX_DEFINITIONS:`
+#ifdef CROWDCARD
+attribute vec2 crowdData;
+#endif
+`,CUSTOM_VERTEX_UPDATE_POSITION:`
+#ifdef CROWDCARD
+#ifdef UV1
+uvUpdated.x = (uvUpdated.x + crowdData.x) / crowdB.z;
+#endif
+#endif
+`,CUSTOM_VERTEX_UPDATE_WORLDPOS:`
+#ifdef CROWDCARD
+{
+    vec3 crowdFeet = finalWorld[3].xyz;
+    float crowdH = length(finalWorld[1].xyz);
+    vec3 crowdEye = crowdEyePos.xyz - crowdFeet;
+    crowdEye.y = 0.0;
+    float crowdL = length(crowdEye);
+    vec3 crowdF = crowdL > 1e-4 ? crowdEye / crowdL : vec3(0.0, 0.0, -1.0);
+    vec3 crowdRight = vec3(-crowdF.z, 0.0, crowdF.x);
+    float crowdBob = sin(crowdA.x * crowdA.w + crowdData.y) * crowdA.z + crowdA.y * max(0.0, sin(crowdA.x * crowdB.y + crowdData.y)) * crowdB.x;
+    worldPos = vec4(crowdFeet + crowdRight * (positionUpdated.x * crowdH) + vec3(0.0, (positionUpdated.y + 0.5) * crowdH + crowdBob, 0.0), 1.0);
+}
+#endif
+`};function h(e,t,n){let r=new a(`crowdTinted`,{width:16,height:16},e,!0,d.TRILINEAR_SAMPLINGMODE),i=new Image;return i.onload=()=>{r.scaleTo(i.width,i.height);let e=r.getContext();e.clearRect(0,0,i.width,i.height),e.drawImage(i,0,0),e.globalCompositeOperation=`source-atop`,e.globalAlpha=n.strength,e.fillStyle=`#${n.color.toString(16).padStart(6,`0`)}`,e.fillRect(0,0,i.width,i.height),e.globalAlpha=1,e.globalCompositeOperation=`source-over`,r.update()},i.src=t,r}var g=class{clock={time:0,excitement:0};start=performance.now();heads=[];constructor(t,n,a,o={color:16777215,strength:0}){let s=e.CROWD_TYPES,u=o.strength>0?h(t,n,o):new d(n,t,!1,!0,d.TRILINEAR_SAMPLINGMODE);u.hasAlpha=!0,u.wrapU=d.CLAMP_ADDRESSMODE,u.wrapV=d.CLAMP_ADDRESSMODE,u.level=e.CROWD_BRIGHTNESS;let f=new l(`crowd`,t);f.diffuseTexture=u,f.emissiveTexture=u,f.useAlphaFromDiffuseTexture=!0,f.transparencyMode=l.MATERIAL_ALPHATEST,f.alphaCutOff=.4,f.disableLighting=!0,f.backFaceCulling=!1,new p(f,this.clock);let m=c.CreatePlane(`crowd`,{size:1},t);m.material=f,m.isPickable=!1,m.alwaysSelectAsActiveMesh=!0;let g=new Float32Array(Math.max(1,a.length)*16),y=new Float32Array(Math.max(1,a.length)*2),b=new r;if(a.forEach((t,n)=>{let a=e.FAN_HEIGHT+e.FAN_HEIGHT_SPREAD*(t.phase/(Math.PI*2)%1);b.setAll(a),i.ComposeToRef(b,_,t.feet,v),v.copyToArray(g,n*16),y[n*2]=t.type%s,y[n*2+1]=t.phase,this.heads.push(new r(t.feet.x,t.feet.y+a*.92,t.feet.z))}),a.length===0){m.setEnabled(!1);return}m.thinInstanceSetBuffer(`matrix`,g,16,!0),m.thinInstanceSetBuffer(`crowdData`,y,2,!0)}get count(){return this.heads.length}cheer(e=1){this.clock.excitement=Math.min(1.5,this.clock.excitement+e)}head(e){return this.heads[e]??null}update(e){this.clock.time=(performance.now()-this.start)/1e3,this.clock.excitement=Math.max(0,this.clock.excitement-e*.8)}},_=n.Identity(),v=new i,y=24,b=class n{managers=new Map;aspect=new Map;meta;playing=[];constructor(e){this.meta=e}static async load(r,i,a=Object.keys(e.FX_ATLAS),o){let s=o?.part(t.PROGRESS.ATLAS*a.length);try{return await n.loadAll(r,i,a,e=>s?.(e))}finally{s?.(1)}}static async loadAll(t,r,i,a){let o=await(await fetch(`${r}fx.json`)).json(),c=new n(o),l=0;return await Promise.all(i.map(async n=>{let d=o[n];if(!d)return;let f=await new Promise(e=>{let t=new Image;t.onload=()=>e(t),t.onerror=()=>e(null),t.src=`${r}${n}.png`});if(a(++l/i.length),!f)return;let p={width:f.width/d.cols,height:f.height/d.rows},m=new s(`fx_${n}`,`${r}${n}.png`,y,p,t);m.isPickable=!1,m.blendMode=e.FX_ATLAS[n].add?u.ALPHA_ADD:u.ALPHA_COMBINE,m.renderingGroupId=1,c.managers.set(n,m),c.aspect.set(n,p.height/p.width)})),c}play(t,n,i={}){let a=this.managers.get(t);if(!a||!this.meta[t])return()=>{};let s=new o(`fx_${t}`,a);s.position=n.add(new r(0,e.FX_ATLAS[t].lift,0)),s.cellIndex=0,s.invertU=i.mirror===!0,s.isVisible=!1;let c={sprite:s,at:n.clone(),key:t,t:0,loopFor:i.loopFor??0,scale:i.scale??1,follow:i.follow??null};return this.playing.push(c),()=>{let e=this.playing.indexOf(c);e>=0&&this.playing.splice(e,1),s.dispose()}}update(t,n,i=!1){for(let a=this.playing.length-1;a>=0;a--){let o=this.playing[a],s=this.meta[o.key];if(o.t+=t,o.loopFor>0?o.t>o.loopFor:o.t>s.dur){o.sprite.dispose(),this.playing.splice(a,1);continue}let c=e.FX_ATLAS[o.key],l=o.loopFor>0?o.t%s.dur:o.t;o.sprite.cellIndex=Math.min(s.frames-1,Math.floor(l/s.dur*s.frames));let u=o.at;if(o.follow){let e=o.follow();e&&(u=e)}let d=c.size*o.scale*(i?e.FX_LOW_SCALE:1),f=d*(this.aspect.get(o.key)??1),p=u.add(new r(0,c.lift*o.scale,0));if(c.front>0){let e=n.subtract(p);e.y=0,o.sprite.position=p.add(e.normalize().scale(c.front))}else o.sprite.position=p;o.sprite.width=d,o.sprite.height=f,o.sprite.isVisible=!0}}clear(){for(let e of this.playing)e.sprite.dispose();this.playing.length=0}dispose(){this.clear();for(let e of this.managers.values())e.dispose();this.managers.clear()}};export{g as n,b as t};

@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./openpbrMaterial.pure-BHTt0Hyo.js";export{n as OpenPBRMaterial,e as OpenPBRMaterialDefines,t as RegisterOpenpbrMaterial};
