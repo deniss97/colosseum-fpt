@@ -1,0 +1,958 @@
+{
+ "seed": 7,
+ "made": "2026-10-26",
+ "snapshots": [
+  {
+   "id": "001_start",
+   "title": "Начало: уровень 3, город",
+   "level": 3,
+   "champions": 0,
+   "file": "001_start.json"
+  },
+  {
+   "id": "002_npc_6_h06_suspects",
+   "title": "№6 Сириус: «Сподвижники» выполнено",
+   "level": 3,
+   "champions": 0,
+   "file": "002_npc_6_h06_suspects.json"
+  },
+  {
+   "id": "003_npc_6_h06_papers",
+   "title": "№6 Сириус: «Бумаги сподвижников» выполнено",
+   "level": 3,
+   "champions": 0,
+   "file": "003_npc_6_h06_papers.json"
+  },
+  {
+   "id": "004_npc_1_h01_house",
+   "title": "№1 Странствующий торговец: «Дом с призраками» выполнено",
+   "level": 4,
+   "champions": 0,
+   "file": "004_npc_1_h01_house.json"
+  },
+  {
+   "id": "005_level_5",
+   "title": "Уровень 5",
+   "level": 5,
+   "champions": 0,
+   "file": "005_level_5.json"
+  },
+  {
+   "id": "006_npc_3_h03_illwishers",
+   "title": "№3 Марта: «Недоброжелатели» выполнено",
+   "level": 5,
+   "champions": 0,
+   "file": "006_npc_3_h03_illwishers.json"
+  },
+  {
+   "id": "007_npc_2_h02_goods",
+   "title": "№2 Тиберий: «Унесённый короб» выполнено",
+   "level": 9,
+   "champions": 0,
+   "file": "007_npc_2_h02_goods.json"
+  },
+  {
+   "id": "008_level_10",
+   "title": "Уровень 10",
+   "level": 10,
+   "champions": 0,
+   "file": "008_level_10.json"
+  },
+  {
+   "id": "009_npc_1_h01_cache",
+   "title": "№1 Странствующий торговец: «Припасы в дорогу» выполнено",
+   "level": 10,
+   "champions": 0,
+   "file": "009_npc_1_h01_cache.json"
+  },
+  {
+   "id": "010_npc_1_h01_accomplice",
+   "title": "№1 Странствующий торговец: «Сподвижник привидений» выполнено",
+   "level": 10,
+   "champions": 0,
+   "file": "010_npc_1_h01_accomplice.json"
+  },
+  {
+   "id": "011_npc_20_h20_spring",
+   "title": "№20 Лорд Пелен Трефадиз: «Ставка на проигрыш» выполнено",
+   "level": 10,
+   "champions": 0,
+   "file": "011_npc_20_h20_spring.json"
+  },
+  {
+   "id": "012_npc_24_informant_letter",
+   "title": "№24 Незнакомец в плаще: «Гонец к оппозиции» выполнено — вся линия",
+   "level": 10,
+   "champions": 0,
+   "file": "012_npc_24_informant_letter.json"
+  },
+  {
+   "id": "013_npc_7_denial_support_group",
+   "title": "№7 Осколок: «Тайная база» выполнено",
+   "level": 10,
+   "champions": 0,
+   "file": "013_npc_7_denial_support_group.json"
+  },
+  {
+   "id": "014_champion_1_before",
+   "title": "Перед чемпионом №1",
+   "level": 10,
+   "champions": 1,
+   "file": "014_champion_1_before.json"
+  },
+  {
+   "id": "015_champion_1_after",
+   "title": "После чемпиона №1",
+   "level": 10,
+   "champions": 1,
+   "file": "015_champion_1_after.json"
+  },
+  {
+   "id": "016_land_forest",
+   "title": "Открыта земля: Лес",
+   "level": 10,
+   "champions": 1,
+   "file": "016_land_forest.json"
+  },
+  {
+   "id": "017_npc_10_trivianthus_supplies",
+   "title": "№10 Тунгадзур: «Склад при трактире» выполнено",
+   "level": 13,
+   "champions": 1,
+   "file": "017_npc_10_trivianthus_supplies.json"
+  },
+  {
+   "id": "018_npc_14_trivianthus_confuser",
+   "title": "№14 Сит Сотор: «Болтун для хранителя» выполнено",
+   "level": 13,
+   "champions": 1,
+   "file": "018_npc_14_trivianthus_confuser.json"
+  },
+  {
+   "id": "019_level_15",
+   "title": "Уровень 15",
+   "level": 15,
+   "champions": 1,
+   "file": "019_level_15.json"
+  },
+  {
+   "id": "020_npc_1_h01_crypt",
+   "title": "№1 Странствующий торговец: «Особый склеп» выполнено",
+   "level": 18,
+   "champions": 1,
+   "file": "020_npc_1_h01_crypt.json"
+  },
+  {
+   "id": "021_npc_1_h01_library",
+   "title": "№1 Странствующий торговец: «Склеп-библиотека» выполнено",
+   "level": 19,
+   "champions": 1,
+   "file": "021_npc_1_h01_library.json"
+  },
+  {
+   "id": "022_level_20",
+   "title": "Уровень 20",
+   "level": 20,
+   "champions": 1,
+   "file": "022_level_20.json"
+  },
+  {
+   "id": "023_npc_1_h01_swarm",
+   "title": "№1 Странствующий торговец: «Скопище привидений» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "023_npc_1_h01_swarm.json"
+  },
+  {
+   "id": "024_npc_1_h01_cult",
+   "title": "№1 Странствующий торговец: «Культ некромантов» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "024_npc_1_h01_cult.json"
+  },
+  {
+   "id": "025_npc_1_h01_statue",
+   "title": "№1 Странствующий торговец: «Статуя у старых склепов» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "025_npc_1_h01_statue.json"
+  },
+  {
+   "id": "026_npc_2_h02_cart",
+   "title": "№2 Тиберий: «Тачка до рынка» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "026_npc_2_h02_cart.json"
+  },
+  {
+   "id": "027_npc_2_h02_graves_road",
+   "title": "№2 Тиберий: «Свечи для поминок» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "027_npc_2_h02_graves_road.json"
+  },
+  {
+   "id": "028_npc_2_h02_crypt",
+   "title": "№2 Тиберий: «Воющий склеп» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "028_npc_2_h02_crypt.json"
+  },
+  {
+   "id": "029_npc_4_h04_bullies",
+   "title": "№4 Гильмундин: «Толпа грубиянов» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "029_npc_4_h04_bullies.json"
+  },
+  {
+   "id": "030_npc_4_h04_map",
+   "title": "№4 Гильмундин: «Карта к синдикату» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "030_npc_4_h04_map.json"
+  },
+  {
+   "id": "031_npc_3_h03_wares",
+   "title": "№3 Марта: «Проданный товар» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "031_npc_3_h03_wares.json"
+  },
+  {
+   "id": "032_npc_3_h03_map",
+   "title": "№3 Марта: «Карта трав» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "032_npc_3_h03_map.json"
+  },
+  {
+   "id": "033_npc_5_h05_crossing",
+   "title": "№5 Морти: «Через кладбище» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "033_npc_5_h05_crossing.json"
+  },
+  {
+   "id": "034_npc_5_h05_vault",
+   "title": "№5 Морти: «К дальней стене» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "034_npc_5_h05_vault.json"
+  },
+  {
+   "id": "035_npc_5_h05_angel",
+   "title": "№5 Морти: «Мраморный ангел» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "035_npc_5_h05_angel.json"
+  },
+  {
+   "id": "036_npc_5_h05_ghosts",
+   "title": "№5 Морти: «Тишина у плиты» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "036_npc_5_h05_ghosts.json"
+  },
+  {
+   "id": "037_npc_5_h05_flowers",
+   "title": "№5 Морти: «Цветы на плите» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "037_npc_5_h05_flowers.json"
+  },
+  {
+   "id": "038_npc_6_h06_beams",
+   "title": "№6 Сириус: «Балки» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "038_npc_6_h06_beams.json"
+  },
+  {
+   "id": "039_npc_6_h06_ruins",
+   "title": "№6 Сириус: «Документы из руин» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "039_npc_6_h06_ruins.json"
+  },
+  {
+   "id": "040_npc_6_h06_undead",
+   "title": "№6 Сириус: «Нежить мешает» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "040_npc_6_h06_undead.json"
+  },
+  {
+   "id": "041_npc_6_h06_records",
+   "title": "№6 Сириус: «Тайник в склепе» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "041_npc_6_h06_records.json"
+  },
+  {
+   "id": "042_npc_6_h06_artifact",
+   "title": "№6 Сириус: «Артефакт для Империи» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "042_npc_6_h06_artifact.json"
+  },
+  {
+   "id": "043_npc_20_h20_vault",
+   "title": "№20 Лорд Пелен Трефадиз: «Из-под охраны» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "043_npc_20_h20_vault.json"
+  },
+  {
+   "id": "044_npc_13_h13_supplies",
+   "title": "№13 Брюзга: «Стариковский ящик» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "044_npc_13_h13_supplies.json"
+  },
+  {
+   "id": "045_npc_13_h13_ghosts",
+   "title": "№13 Брюзга: «Холодные пальцы» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "045_npc_13_h13_ghosts.json"
+  },
+  {
+   "id": "046_npc_15_h15_tax_1",
+   "title": "№15 Сидзий, сборщик подати: «Я вернулся» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "046_npc_15_h15_tax_1.json"
+  },
+  {
+   "id": "047_npc_15_h15_tax_2",
+   "title": "№15 Сидзий, сборщик подати: «Налог на воздух» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "047_npc_15_h15_tax_2.json"
+  },
+  {
+   "id": "048_npc_15_h15_tax_3",
+   "title": "№15 Сидзий, сборщик подати: «Сбор за тишину» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "048_npc_15_h15_tax_3.json"
+  },
+  {
+   "id": "049_npc_15_h15_tax_4",
+   "title": "№15 Сидзий, сборщик подати: «Пошлина за страх» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "049_npc_15_h15_tax_4.json"
+  },
+  {
+   "id": "050_npc_15_h15_tax_5",
+   "title": "№15 Сидзий, сборщик подати: «Подушная подать» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "050_npc_15_h15_tax_5.json"
+  },
+  {
+   "id": "051_npc_15_h15_tax_6",
+   "title": "№15 Сидзий, сборщик подати: «Последняя страница» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "051_npc_15_h15_tax_6.json"
+  },
+  {
+   "id": "052_npc_16_h16_keepsake",
+   "title": "№16 Забытая: «Кольцо из пустого дома» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "052_npc_16_h16_keepsake.json"
+  },
+  {
+   "id": "053_npc_16_h16_gift",
+   "title": "№16 Забытая: «Подарок на подоконнике» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "053_npc_16_h16_gift.json"
+  },
+  {
+   "id": "054_npc_16_h16_ghost",
+   "title": "№16 Забытая: «Тот, кто тянет вниз» выполнено",
+   "level": 20,
+   "champions": 1,
+   "file": "054_npc_16_h16_ghost.json"
+  },
+  {
+   "id": "055_champion_2_before",
+   "title": "Перед чемпионом №2",
+   "level": 20,
+   "champions": 2,
+   "file": "055_champion_2_before.json"
+  },
+  {
+   "id": "056_champion_2_after",
+   "title": "После чемпиона №2",
+   "level": 20,
+   "champions": 2,
+   "file": "056_champion_2_after.json"
+  },
+  {
+   "id": "057_land_mountains",
+   "title": "Открыта земля: Горы",
+   "level": 20,
+   "champions": 2,
+   "file": "057_land_mountains.json"
+  },
+  {
+   "id": "058_npc_7_trivianthus_career",
+   "title": "№7 Осколок: «Склеп карьеры» выполнено",
+   "level": 20,
+   "champions": 2,
+   "file": "058_npc_7_trivianthus_career.json"
+  },
+  {
+   "id": "059_npc_19_brothers_spring",
+   "title": "№19 Аластор Амдусциас: «Источник» выполнено",
+   "level": 22,
+   "champions": 2,
+   "file": "059_npc_19_brothers_spring.json"
+  },
+  {
+   "id": "060_npc_11_vira_spring",
+   "title": "№11 Охотница: «Звериный водопой» выполнено",
+   "level": 22,
+   "champions": 2,
+   "file": "060_npc_11_vira_spring.json"
+  },
+  {
+   "id": "061_npc_11_vira_pack_leader",
+   "title": "№11 Охотница: «Лесная шайка» выполнено",
+   "level": 23,
+   "champions": 2,
+   "file": "061_npc_11_vira_pack_leader.json"
+  },
+  {
+   "id": "062_level_25",
+   "title": "Уровень 25",
+   "level": 25,
+   "champions": 2,
+   "file": "062_level_25.json"
+  },
+  {
+   "id": "063_npc_13_rebels_way",
+   "title": "№13 Брюзга: «Дорожка» выполнено",
+   "level": 28,
+   "champions": 2,
+   "file": "063_npc_13_rebels_way.json"
+  },
+  {
+   "id": "064_npc_1_h01_escort",
+   "title": "№1 Странствующий торговец: «Через лес» выполнено",
+   "level": 29,
+   "champions": 2,
+   "file": "064_npc_1_h01_escort.json"
+  },
+  {
+   "id": "065_level_30",
+   "title": "Уровень 30",
+   "level": 30,
+   "champions": 2,
+   "file": "065_level_30.json"
+  },
+  {
+   "id": "066_npc_2_h02_forest_road",
+   "title": "№2 Тиберий: «Через чащу» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "066_npc_2_h02_forest_road.json"
+  },
+  {
+   "id": "067_npc_2_h02_bundles",
+   "title": "№2 Тиберий: «Тюк в овраге» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "067_npc_2_h02_bundles.json"
+  },
+  {
+   "id": "068_npc_4_h04_relic",
+   "title": "№4 Гильмундин: «Семейная реликвия» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "068_npc_4_h04_relic.json"
+  },
+  {
+   "id": "069_npc_4_h04_tree",
+   "title": "№4 Гильмундин: «Тайный лаз» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "069_npc_4_h04_tree.json"
+  },
+  {
+   "id": "070_npc_3_h03_bloodroot",
+   "title": "№3 Марта: «Кровохлёбка» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "070_npc_3_h03_bloodroot.json"
+  },
+  {
+   "id": "071_npc_3_h03_puffballs",
+   "title": "№3 Марта: «Дождевики» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "071_npc_3_h03_puffballs.json"
+  },
+  {
+   "id": "072_npc_3_h03_thorn_witch",
+   "title": "№3 Марта: «Колдунья терновника» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "072_npc_3_h03_thorn_witch.json"
+  },
+  {
+   "id": "073_npc_3_h03_moonherb",
+   "title": "№3 Марта: «Лунная трава» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "073_npc_3_h03_moonherb.json"
+  },
+  {
+   "id": "074_npc_5_h05_notebook",
+   "title": "№5 Морти: «Тетрадь стихов» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "074_npc_5_h05_notebook.json"
+  },
+  {
+   "id": "075_npc_5_h05_way_out",
+   "title": "№5 Морти: «К опушке» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "075_npc_5_h05_way_out.json"
+  },
+  {
+   "id": "076_npc_11_h11_spirit",
+   "title": "№11 Охотница: «Дух лесного кладбища» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "076_npc_11_h11_spirit.json"
+  },
+  {
+   "id": "077_npc_11_h11_trust",
+   "title": "№11 Охотница: «Слово Охотнице» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "077_npc_11_h11_trust.json"
+  },
+  {
+   "id": "078_npc_11_h11_sick_beasts",
+   "title": "№11 Охотница: «Больные звери» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "078_npc_11_h11_sick_beasts.json"
+  },
+  {
+   "id": "079_npc_11_h11_escort",
+   "title": "№11 Охотница: «К логову порчи» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "079_npc_11_h11_escort.json"
+  },
+  {
+   "id": "080_npc_11_h11_altar",
+   "title": "№11 Охотница: «Идол над колдуном» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "080_npc_11_h11_altar.json"
+  },
+  {
+   "id": "081_npc_6_h06_camp",
+   "title": "№6 Сириус: «Лагерь мятежников» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "081_npc_6_h06_camp.json"
+  },
+  {
+   "id": "082_npc_6_h06_camp2",
+   "title": "№6 Сириус: «Второй лагерь» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "082_npc_6_h06_camp2.json"
+  },
+  {
+   "id": "083_npc_10_h10_sleep",
+   "title": "№10 Тунгадзур: «Эликсир сна» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "083_npc_10_h10_sleep.json"
+  },
+  {
+   "id": "084_npc_10_h10_tree",
+   "title": "№10 Тунгадзур: «Древо с лицом» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "084_npc_10_h10_tree.json"
+  },
+  {
+   "id": "085_npc_10_h10_hold",
+   "title": "№10 Тунгадзур: «Держать удар» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "085_npc_10_h10_hold.json"
+  },
+  {
+   "id": "086_npc_20_h20_clearing",
+   "title": "№20 Лорд Пелен Трефадиз: «Место в лесу» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "086_npc_20_h20_clearing.json"
+  },
+  {
+   "id": "087_npc_13_h13_pipe",
+   "title": "№13 Брюзга: «Старая дудка» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "087_npc_13_h13_pipe.json"
+  },
+  {
+   "id": "088_npc_8_h08_prank",
+   "title": "№8 Ильмундинг: «Улей на тропе» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "088_npc_8_h08_prank.json"
+  },
+  {
+   "id": "089_npc_8_h08_hunters",
+   "title": "№8 Ильмундинг: «Охотники на охотницу» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "089_npc_8_h08_hunters.json"
+  },
+  {
+   "id": "090_npc_8_h08_stone",
+   "title": "№8 Ильмундинг: «Что-то невероятное» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "090_npc_8_h08_stone.json"
+  },
+  {
+   "id": "091_npc_14_h14_plantation",
+   "title": "№14 Сит Сотор: «Чёрные деревья» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "091_npc_14_h14_plantation.json"
+  },
+  {
+   "id": "092_npc_17_h17_roots",
+   "title": "№17 Зенристосатр: «Под корнями ели» выполнено",
+   "level": 30,
+   "champions": 2,
+   "file": "092_npc_17_h17_roots.json"
+  },
+  {
+   "id": "093_champion_3_before",
+   "title": "Перед чемпионом №3",
+   "level": 30,
+   "champions": 3,
+   "file": "093_champion_3_before.json"
+  },
+  {
+   "id": "094_champion_3_after",
+   "title": "После чемпиона №3",
+   "level": 30,
+   "champions": 3,
+   "file": "094_champion_3_after.json"
+  },
+  {
+   "id": "095_land_ashland",
+   "title": "Открыта земля: Пепелище",
+   "level": 30,
+   "champions": 3,
+   "file": "095_land_ashland.json"
+  },
+  {
+   "id": "096_npc_5_brothers_record",
+   "title": "№5 Морти: «Запись Морти» выполнено",
+   "level": 30,
+   "champions": 3,
+   "file": "096_npc_5_brothers_record.json"
+  },
+  {
+   "id": "097_npc_7_brothers_third",
+   "title": "№7 Осколок: «Третий брат» выполнено",
+   "level": 30,
+   "champions": 3,
+   "file": "097_npc_7_brothers_third.json"
+  },
+  {
+   "id": "098_npc_8_brothers_swim",
+   "title": "№8 Ильмундинг: «Ребёнок перегонит» выполнено",
+   "level": 30,
+   "champions": 3,
+   "file": "098_npc_8_brothers_swim.json"
+  },
+  {
+   "id": "099_npc_16_brothers_almanac",
+   "title": "№16 Забытая: «Список арены» выполнено",
+   "level": 30,
+   "champions": 3,
+   "file": "099_npc_16_brothers_almanac.json"
+  },
+  {
+   "id": "100_npc_1_h01_gather",
+   "title": "№1 Странствующий торговец: «Серебро в камне» выполнено",
+   "level": 32,
+   "champions": 3,
+   "file": "100_npc_1_h01_gather.json"
+  },
+  {
+   "id": "101_npc_1_h01_giants",
+   "title": "№1 Странствующий торговец: «Лагерь великанов» выполнено",
+   "level": 34,
+   "champions": 3,
+   "file": "101_npc_1_h01_giants.json"
+  },
+  {
+   "id": "102_level_35",
+   "title": "Уровень 35",
+   "level": 35,
+   "champions": 3,
+   "file": "102_level_35.json"
+  },
+  {
+   "id": "103_npc_1_h01_boulder",
+   "title": "№1 Странствующий торговец: «Глыба на тропе» выполнено",
+   "level": 35,
+   "champions": 3,
+   "file": "103_npc_1_h01_boulder.json"
+  },
+  {
+   "id": "104_npc_2_h02_pass",
+   "title": "№2 Тиберий: «Перевал» выполнено",
+   "level": 36,
+   "champions": 3,
+   "file": "104_npc_2_h02_pass.json"
+  },
+  {
+   "id": "105_npc_2_h02_stall",
+   "title": "№2 Тиберий: «Место для прилавка» выполнено",
+   "level": 37,
+   "champions": 3,
+   "file": "105_npc_2_h02_stall.json"
+  },
+  {
+   "id": "106_npc_4_h04_giants",
+   "title": "№4 Гильмундин: «Великаны на тропе» выполнено",
+   "level": 38,
+   "champions": 3,
+   "file": "106_npc_4_h04_giants.json"
+  },
+  {
+   "id": "107_npc_4_h04_camp",
+   "title": "№4 Гильмундин: «Бандитский лагерь» выполнено",
+   "level": 39,
+   "champions": 3,
+   "file": "107_npc_4_h04_camp.json"
+  },
+  {
+   "id": "108_level_40",
+   "title": "Уровень 40",
+   "level": 40,
+   "champions": 3,
+   "file": "108_level_40.json"
+  },
+  {
+   "id": "109_npc_4_h04_sword",
+   "title": "№4 Гильмундин: «Фамильный меч» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "109_npc_4_h04_sword.json"
+  },
+  {
+   "id": "110_npc_4_h04_rival",
+   "title": "№4 Гильмундин: «Одноглазый враг» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "110_npc_4_h04_rival.json"
+  },
+  {
+   "id": "111_npc_3_h03_edelweiss",
+   "title": "№3 Марта: «Горный серебрянник» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "111_npc_3_h03_edelweiss.json"
+  },
+  {
+   "id": "112_npc_5_h05_overlap",
+   "title": "№5 Морти: «Каменное перекрытие» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "112_npc_5_h05_overlap.json"
+  },
+  {
+   "id": "113_npc_5_h05_last_walk",
+   "title": "№5 Морти: «Край скалы» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "113_npc_5_h05_last_walk.json"
+  },
+  {
+   "id": "114_npc_16_h16_thoughts",
+   "title": "№16 Забытая: «Слова над камнями» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "114_npc_16_h16_thoughts.json"
+  },
+  {
+   "id": "115_npc_11_h11_giants_camp",
+   "title": "№11 Охотница: «Великан у перевала» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "115_npc_11_h11_giants_camp.json"
+  },
+  {
+   "id": "116_npc_11_h11_giants_ford",
+   "title": "№11 Охотница: «Великаны у брода» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "116_npc_11_h11_giants_ford.json"
+  },
+  {
+   "id": "117_npc_11_h11_giants_chief",
+   "title": "№11 Охотница: «Вожак великанов» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "117_npc_11_h11_giants_chief.json"
+  },
+  {
+   "id": "118_npc_6_h06_pass",
+   "title": "№6 Сириус: «Перевал» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "118_npc_6_h06_pass.json"
+  },
+  {
+   "id": "119_npc_10_h10_bridge",
+   "title": "№10 Тунгадзур: «Мост под скалой» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "119_npc_10_h10_bridge.json"
+  },
+  {
+   "id": "120_npc_10_h10_giants",
+   "title": "№10 Тунгадзур: «Угодья» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "120_npc_10_h10_giants.json"
+  },
+  {
+   "id": "121_npc_10_h10_stores",
+   "title": "№10 Тунгадзур: «Припасы» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "121_npc_10_h10_stores.json"
+  },
+  {
+   "id": "122_npc_20_h20_gift",
+   "title": "№20 Лорд Пелен Трефадиз: «Подарок королю великанов» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "122_npc_20_h20_gift.json"
+  },
+  {
+   "id": "123_npc_12_h12_band",
+   "title": "№12 Сидис: «Мятежники в горах» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "123_npc_12_h12_band.json"
+  },
+  {
+   "id": "124_npc_12_h12_draught",
+   "title": "№12 Сидис: «Снотворное» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "124_npc_12_h12_draught.json"
+  },
+  {
+   "id": "125_npc_12_h12_rebel21",
+   "title": "№12 Сидис: «Мятежник в горах» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "125_npc_12_h12_rebel21.json"
+  },
+  {
+   "id": "126_npc_13_h13_giants1",
+   "title": "№13 Брюзга: «Лагерь великанов» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "126_npc_13_h13_giants1.json"
+  },
+  {
+   "id": "127_npc_15_h15_place",
+   "title": "№15 Сидзий, сборщик подати: «Дом с видом» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "127_npc_15_h15_place.json"
+  },
+  {
+   "id": "128_npc_19_h19_well",
+   "title": "№19 Аластор Амдусциас: «Колодец» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "128_npc_19_h19_well.json"
+  },
+  {
+   "id": "129_npc_19_h19_supplies",
+   "title": "№19 Аластор Амдусциас: «Хлеб для приюта» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "129_npc_19_h19_supplies.json"
+  },
+  {
+   "id": "130_npc_19_h19_grave",
+   "title": "№19 Аластор Амдусциас: «Потревоженная могила» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "130_npc_19_h19_grave.json"
+  },
+  {
+   "id": "131_npc_13_h13_giants2",
+   "title": "№13 Брюзга: «Лагерь за перевалом» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "131_npc_13_h13_giants2.json"
+  },
+  {
+   "id": "132_npc_13_h13_giant",
+   "title": "№13 Брюзга: «Добрый великан» выполнено — вся линия",
+   "level": 40,
+   "champions": 3,
+   "file": "132_npc_13_h13_giant.json"
+  },
+  {
+   "id": "133_npc_19_h19_relic",
+   "title": "№19 Аластор Амдусциас: «Чёрный свёрток» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "133_npc_19_h19_relic.json"
+  },
+  {
+   "id": "134_npc_19_h19_seed",
+   "title": "№19 Аластор Амдусциас: «Тёмное семечко» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "134_npc_19_h19_seed.json"
+  },
+  {
+   "id": "135_npc_19_h19_bomb",
+   "title": "№19 Аластор Амдусциас: «Лес в огне» выполнено — вся линия",
+   "level": 40,
+   "champions": 3,
+   "file": "135_npc_19_h19_bomb.json"
+  },
+  {
+   "id": "136_npc_17_h17_cairn",
+   "title": "№17 Зенристосатр: «Пирамида на перевале» выполнено",
+   "level": 40,
+   "champions": 3,
+   "file": "136_npc_17_h17_cairn.json"
+  }
+ ]
+}
