@@ -1,0 +1,14 @@
+# Cache rules for Cloudflare (Workers assets / Pages) and Netlify. Copied to the site root by Vite.
+# GitHub Pages ignores this file and uses its own caching.
+
+# The entry document must always be revalidated, otherwise players keep an old build.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
+# Asset file names carry a content hash, so they can be cached forever. Every matching rule applies,
+# so the general rule's Cache-Control is detached here first (`! Header`), otherwise both values are sent.
+/assets/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
