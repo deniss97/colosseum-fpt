@@ -1,0 +1,1 @@
+var e={DIR:`3d/weapons/`,OUTLINE:.5,BRIGHTNESS:1.05,GEM_GLOW:.7,MODELS:{sword:{size:.6},dagger:{size:.3},knife:{size:.24},greatsword:{size:1.1},spear:{size:1.5},javelin:{size:1.25},hatchet:{size:.5},staff:{size:1.35,gem:{at:[0,.566,0],size:.06}},sickle:{size:.4},shield:{size:.48},bow:{size:.92},crossbow:{size:.6},talisman:{size:.1},fetish:{size:.12}}};export{e as t};

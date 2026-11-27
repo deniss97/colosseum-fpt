@@ -1,0 +1,1 @@
+import{r as e,t}from"./prefetch3d-GyRDBcxb.js";export{t as dropPrefetched,e as preload3d};

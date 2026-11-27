@@ -1,0 +1,1 @@
+import{t as e}from"./content-C012lBwp.js";export{e as content};

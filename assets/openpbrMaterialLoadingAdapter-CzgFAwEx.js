@@ -1,0 +1,1 @@
+import{t as e}from"./openpbrMaterialLoadingAdapter-Bihtdox8.js";export{e as OpenPBRMaterialLoadingAdapter};
